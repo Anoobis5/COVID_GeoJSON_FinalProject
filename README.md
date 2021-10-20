@@ -45,3 +45,14 @@ COLUMBIA FINAL PROJECT
 __**NYC COVID Github:**__
 
 https://github.com/nychealth/coronavirus-data.git
+https://data.ny.gov/
+
+
+## Role Interests
+
+* Kyle: Github, Databasing, & tech
+* Helena: Github & Machinelearning
+* Kristin: MachineLearning & Visualization
+* Tara: Database & Visualization
+* Portia: Database & Visualization
+* John: Database & Tech
