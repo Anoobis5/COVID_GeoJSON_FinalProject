@@ -5,29 +5,27 @@
 
 Project Idea
 
-COVID Vaccination Rates and School Zones within NYC
-
-Neighborhood income vs school zone budget
+______________________
 
 COLUMBIA FINAL PROJECT
 
-* Main Idea: Is there a relation between COVID Vaccinations and Postivie cases; and the school districts based on funding?
+* Main Idea: 
 
 	- Data needed:
 		-COVID data tracking
-		-School District data and their anual funding
 		-
 
 * Roles
 
 * Pitch
 	*-What do we hope to acheive?
-		-Show that there is a correlation between COVID vaccination distribution and CASEs based on school zones and the amount of funding in those districts.
+		-
 
 	*-What steps are being taken to achieve this
 		-Gathering COVID CSV data.
 
 	*-Current Progress
+
 	*-Point you plan on being at next week.
 
 * Presentation
