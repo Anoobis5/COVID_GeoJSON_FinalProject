@@ -35,4 +35,9 @@ COLUMBIA FINAL PROJECT
 			-make this data accesible for print view
 
 	-Page of Disctrict data [non-map view]
+	
+
+__**NYC COVID Github:**__
+
+https://github.com/nychealth/coronavirus-data.git
 
