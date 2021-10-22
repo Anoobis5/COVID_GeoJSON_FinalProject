@@ -22,11 +22,16 @@ COLUMBIA FINAL PROJECT
 		-
 
 	*-What steps are being taken to achieve this
-		-Gathering COVID CSV data.
+		-DOH COVID Daa
+		-Census Bureau Data
+		-NYC Health COVID data github
 
 	*-Current Progress
 
 	*-Point you plan on being at next week.
+		-have question narrowed down by Sunday
+		-which model/statistics will we use for our hypothesis
+		-
 
 * Presentation
 	* Page Regarding the data
