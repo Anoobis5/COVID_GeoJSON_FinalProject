@@ -33,27 +33,20 @@ https://covidtracking.com/
 
 https://health.data.ny.gov/browse?tags=covid-19
 
-Role Interests
-
-Kyle: Github, Databasing, & tech
-
-Helena: Github & Machinelearning
-
-Kristin: MachineLearning & Visualization
-
-Tara: Database & Visualization
-
-Portia: Database & Visualization
-
-John: Database & Tech
-
-
 ## Role Interests
 
 * Kyle: Github, Databasing, & tech
+
 * Helena: Github & Machinelearning
+
 * Kristin: MachineLearning & Visualization
+
 * Tara: Database & Visualization
+
 * Portia: Database & Visualization
+
 * John: Database & Tech
+
+
+
 
