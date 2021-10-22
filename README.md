@@ -1,14 +1,14 @@
 ## **COLUMBIA FINAL PROJECT**
 
-#### Main Idea:
+### Main Idea:
 
-#### Data needed: 
+### Data needed: 
 
   * COVID data tracking 
   * DOH COVID Data
   * Census Data
 
-#### Pitch 
+### Pitch 
 
   *-What do we hope to acheive? -
 
@@ -18,13 +18,10 @@
 
   *-Point you plan on being at next week.
 
-#### Presentation
+### Presentation
 
-Page Regarding the data
+### __Resources__
 
-Page of map of NYC [enable borough selection] -enable selection of school districts within the boroug -display heatmap or _____ displaying vaccinations/cases/funding of each district. -enable layering(?) -enable graphs that update in real time to visualize data -make this data accesible for print view
-
-Page of Disctrict data [non-map view]
 
 NYC COVID Github:
 
