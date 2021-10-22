@@ -18,8 +18,7 @@
   * Current Progress
 
   * Point you plan on being at next week.
-
-  *  Cluster, clean, and transform data ready for MachineLearning team.
+       * Cluster, clean, and transform data ready for MachineLearning team.
 
 ### Presentation
 
