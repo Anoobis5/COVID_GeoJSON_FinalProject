@@ -19,6 +19,8 @@
 
   * Point you plan on being at next week.
 
+  *  Cluster, clean, and transform data ready for MachineLearning team.
+
 ### Presentation
 
 ### __Resources__
