@@ -25,7 +25,7 @@
 Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
 
 #### Design
-Features: Demographics (exact fields to be determined during office hours)
+Features: Demographics (exact fields to be determined during office hours)<br/>
 Target: Vaccination Rates
 
 #### Machine Learning Model
