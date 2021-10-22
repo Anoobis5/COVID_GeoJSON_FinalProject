@@ -11,13 +11,13 @@
 
 ### Pitch 
 
-  *-What do we hope to acheive? -
+  * What do we hope to acheive? -
 
-  *-What steps are being taken to achieve this
+  * What steps are being taken to achieve this
 
-  *-Current Progress
+  * Current Progress
 
-  *-Point you plan on being at next week.
+  * Point you plan on being at next week.
 
 ### Presentation
 
