@@ -1,21 +1,24 @@
-COVID_GeoJSON_FinalProject
-Topic Formation Project Idea
+## **COLUMBIA FINAL PROJECT**
 
-COLUMBIA FINAL PROJECT
+#### Main Idea:
 
-Main Idea:
+#### Data needed: 
 
-Data needed: -COVID data tracking Roles
+  * COVID data tracking 
+  * DOH COVID Data
+  * Census Data
 
-Pitch *-What do we hope to acheive? -
+#### Pitch 
 
-*-What steps are being taken to achieve this -Gathering COVID CSV data.
+  *-What do we hope to acheive? -
 
-*-Current Progress
+  *-What steps are being taken to achieve this -Gathering COVID CSV data.
 
-*-Point you plan on being at next week.
+  *-Current Progress
 
-Presentation
+  *-Point you plan on being at next week.
+
+#### Presentation
 
 Page Regarding the data
 
