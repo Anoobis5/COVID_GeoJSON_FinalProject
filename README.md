@@ -1,29 +1,26 @@
-# COVID_GeoJSON_FinalProject
+### Main Idea:
 
+ 
+### Data needed: 
 
-Topic Formation Project Idea
+  * COVID data tracking 
+  * DOH COVID Data
+  * Census Data
 
-COLUMBIA FINAL PROJECT
+### Pitch 
 
-Main Idea:
+  *-What do we hope to acheive? -
 
-Data needed: -COVID data tracking Roles
+  *-What steps are being taken to achieve this
 
-Pitch *-What do we hope to acheive? -
+  *-Current Progress
 
-*-What steps are being taken to achieve this -Gathering COVID CSV data.
+  *-Point you plan on being at next week.
 
-*-Current Progress
+### Presentation
 
-*-Point you plan on being at next week.
+### __Resources__
 
-Presentation
-
-Page Regarding the data
-
-Page of map of NYC [enable borough selection] -enable selection of school districts within the boroug -display heatmap or _____ displaying vaccinations/cases/funding of each district. -enable layering(?) -enable graphs that update in real time to visualize data -make this data accesible for print view
-
-Page of Disctrict data [non-map view]
 
 NYC COVID Github:
 
@@ -35,16 +32,27 @@ https://covidtracking.com/
 
 https://health.data.ny.gov/browse?tags=covid-19
 
-Role Interests
+## Role Interests
 
-Kyle: Github, Databasing, & tech
+* Kyle: Github, Databasing, & tech
 
-Helena: Github & Machinelearning
+* Helena: Github & Machinelearning
 
-Kristin: MachineLearning & Visualization
+* Kristin: MachineLearning & Visualization
 
-Tara: Database & Visualization
+* Tara: Database & Visualization
 
-Portia: Database & Visualization
+* Portia: Database & Visualization
 
-John: Database & Tech
+* John: Database & Tech
+
+
+### Availability
+
+Weekends during the day
+
+Nights starting at 7pm
+
+
+
+
