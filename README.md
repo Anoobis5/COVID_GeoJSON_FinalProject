@@ -2,6 +2,7 @@
 
 ### Main Idea:
 
+ 
 ### Data needed: 
 
   * COVID data tracking 
@@ -12,7 +13,7 @@
 
   *-What do we hope to acheive? -
 
-  *-What steps are being taken to achieve this -Gathering COVID CSV data.
+  *-What steps are being taken to achieve this
 
   *-Current Progress
 
@@ -46,6 +47,13 @@ https://health.data.ny.gov/browse?tags=covid-19
 * Portia: Database & Visualization
 
 * John: Database & Tech
+
+
+### Availability
+
+Weekends during the day
+
+Nights starting at 7pm
 
 
 
