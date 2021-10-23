@@ -22,7 +22,20 @@
   * Point you plan on being at next week.
        * Cluster, clean, and transform data ready for MachineLearning team.
 
-### Presentation
+## Presentation
+
+### Research Question
+* Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
+
+### Design
+* Features: Demographics (exact fields to be determined during office hours)
+* Target: Vaccination Rates
+
+### Machine Learning Model
+* TBD (initial model to be determined during office hours)
+
+### Data Sources
+* TBD (initial data sources to be determined during office hours)
 
 ### __Resources__
 
