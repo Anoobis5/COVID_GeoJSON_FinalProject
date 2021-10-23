@@ -21,6 +21,9 @@
 
 ### Presentation
 
+#### Overview
+The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates.  
+
 #### Research Question
 Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
 
