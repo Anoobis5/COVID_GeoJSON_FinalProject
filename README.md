@@ -1,4 +1,4 @@
-## __COVID-19 Project__
+## **COLUMBIA FINAL PROJECT**
 
 ### Main Idea:
 
@@ -11,29 +11,28 @@
 
 ### Pitch 
 
-  * What do we hope to acheive? -
-   
-  * What steps are being taken to achieve this
+  *-What do we hope to acheive? -
 
-  * Current Progress
+  *-What steps are being taken to achieve this
 
-  * Point you plan on being at next week.
-       * Cluster, clean, and transform data ready for MachineLearning team.
+  *-Current Progress
 
-## Presentation
+  *-Point you plan on being at next week.
 
-### Research Question
-* Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
+### Presentation
 
-### Design
-* Features: Demographics (exact fields to be determined during office hours)
-* Target: Vaccination Rates
+#### Research Question
+Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
 
-### Machine Learning Model
-* TBD (initial model to be determined during office hours)
+#### Design
+Features: Demographics (exact fields to be determined during office hours)<br/>
+Target: Vaccination Rates
 
-### Data Sources
-* TBD (initial data sources to be determined during office hours)
+#### Machine Learning Model
+TBD (initial model to be determined during office hours)
+
+#### Data Sources
+TBD (initial data sources to be determined during office hours)
 
 ### __Resources__
 
@@ -50,11 +49,11 @@ https://health.data.ny.gov/browse?tags=covid-19
 
 ## Role Interests
 
-* Kyle: Github, Databasing, & tech
+* Kyle: Github, Databasing, & Tech
 
-* Helena: Github & Machinelearning
+* Helena: Github & Machine Learning
 
-* Kristin: MachineLearning & Visualization
+* Kristin: Machine Learning & Visualization
 
 * Tara: Database & Visualization
 
@@ -67,7 +66,7 @@ https://health.data.ny.gov/browse?tags=covid-19
 
 Weekends during the day
 
-Nights starting at 7pm
+Nights starting at 7pm ET
 
 
 
