@@ -47,7 +47,7 @@ https://health.data.ny.gov/browse?tags=covid-19
 
 * Kristin: Machine Learning & Visualization
 
-* Tara: Database & Visualization
+* Tara: Database & Heroku, & Visualization
 
 * Portia: Database & Visualization
 
