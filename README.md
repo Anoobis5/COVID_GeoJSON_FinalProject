@@ -29,7 +29,10 @@ Features: Demographics (exact fields to be determined during office hours)<br/>
 Target: Vaccination Rates
 
 #### Machine Learning Model
-TBD (initial model to be determined during office hours)
+* Which model did you choose and why?
+* How are you training your model?
+* What is the model's accuracy?
+* How does this model work?
 
 #### Data Sources
 TBD (initial data sources to be determined during office hours)
