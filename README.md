@@ -12,6 +12,8 @@
 ### Pitch 
 
   * What do we hope to acheive? -
+    * Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
+
 
   * What steps are being taken to achieve this
 
