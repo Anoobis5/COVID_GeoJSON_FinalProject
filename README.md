@@ -18,8 +18,11 @@ Variables: TBD
 * How does this model work?
 
 ### Data Sources - *See Resources Folder*
-Vaccination Table Schema
+
+Vaccination Table Schema - 
+
 Demographic Table Schema
+
 Census Bureau Data
 
 ### Technology - 
