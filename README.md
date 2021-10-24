@@ -33,10 +33,11 @@ Demographic Table Schema
 
 Census Bureau Data
 
+Poupulation: Population Description and Data Types Schema
+
 ### Technology
 
 * SQL DB
-
 
 * Tableau tables
 
