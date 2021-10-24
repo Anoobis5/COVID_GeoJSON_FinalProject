@@ -25,7 +25,7 @@ Demographic Table Schema
 
 Census Bureau Data
 
-### Technology - 
+### Technology
 * SQL DB
 * Tensorflow
 * Tableau tables
