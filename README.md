@@ -20,7 +20,9 @@ Variables: TBD
 
 ### Data Sources - *See Resources Folder*
 Vaccination Table Schema
+
 Demographic Table Schema
+
 Census Bureau Data
 
 ### Technology - 
