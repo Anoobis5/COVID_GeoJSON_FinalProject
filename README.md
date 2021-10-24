@@ -15,13 +15,16 @@ Are there certain demographic factors (e.g., household income, population densit
 * **Training**: The initial model uses X neurons and 3 layers including the output layer. The first two layers use the ReLU function. The output layer uses the linear activation function to predict the vaccination rates. The data was split into 80% training and 20% testing data and trained for 100 epochs. 
 * **Accuracy**: The initial model's accuracy is X and the loss (mean squared error) is Y. 
 
-### Data Sources - **Database team to add**
-* Vaccination Table Schema
-* Demographic Table Schema
 
-### Technology - **Tech team to add**
+### Data Sources - *See Resources Folder*
+Vaccination Table Schema
+Demographic Table Schema
+Census Bureau Data
+
+### Technology - 
 * SQL DB
 * Tensorflow
+* Tableau tables
 * Heroku
 
 ### __Resources__
