@@ -7,8 +7,10 @@ The purpose of this analysis is to gain insight into what factors impact COVID-1
 Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates of New York City residents?
 
 ### Design
-* Features: Demographics - **ML or Database team to add**
-* Target: Vaccination Rates
+
+Features: Demographics - **ML or Database team to add**<br/>
+Target: Vaccination Rates
+Variables: TBD
 
 ### Machine Learning Model
 * **Model**: For our initial model, we are using a deep learning model to predict the COVID-19 vaccination rates of New York City residents. The neural network model behaves like a regression model, where a dependant output variable (vaccination rates) can be predicted from independent input variables (demographic information). 
@@ -54,6 +56,3 @@ https://health.data.ny.gov/browse?tags=covid-19
 * Portia: Database & Visualization
 
 * John: Database & Tech
-
-
-
