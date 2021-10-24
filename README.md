@@ -23,6 +23,7 @@ Demographic Table Schema
 ### Technology - **Tech team to add**
 * SQL DB
 * Tensorflow
+* Tableau (?)
 * Heroku
 
 ### __Resources__
