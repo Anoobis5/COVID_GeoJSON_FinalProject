@@ -10,6 +10,7 @@ Are there certain demographic factors (e.g., household income, population densit
 * Features: Demographics - Race and Population Density
 * Target: Vaccination Rate
 
+
 ### Machine Learning Model
 * **Model**: For our initial model, we are using a deep learning model to predict the COVID-19 vaccination rates of New York City residents. The neural network model behaves like a regression model, where a dependant output variable (vaccination rates) can be predicted from independent input variables (demographic information). 
 * **Training**: The initial model uses 3 layers including the output layer. The first two layers have 20 nodes each and use the ReLU function. The output layer uses the linear activation function to predict the vaccination rates. The data was trained for 100 epochs. 
@@ -19,7 +20,9 @@ Are there certain demographic factors (e.g., household income, population densit
 ### Data Sources
 [All Data Sources](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources)
 Vaccination Table Schema
+
 Demographic Table Schema
+
 Census Bureau Data
 
 ### Technology
@@ -55,6 +58,3 @@ https://health.data.ny.gov/browse?tags=covid-19
 * Portia: Database & Visualization
 
 * John: Database & Tech
-
-
-
