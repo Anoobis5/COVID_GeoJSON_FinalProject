@@ -1,0 +1,41 @@
+Location,Income Level,TimeFrame,DataFormat,Data,Fips
+Bronx,"$100,000 to $199,999",2019,Percent,0.13825,36005
+Brooklyn,"$100,000 to $199,999",2019,Percent,0.22985,36047
+Manhattan,"$100,000 to $199,999",2019,Percent,0.23132,36061
+Queens,"$100,000 to $199,999",2019,Percent,0.27217,36081
+Staten Island,"$100,000 to $199,999",2019,Percent,0.32287,36085
+Bronx,"$15,000 to $24,999",2019,Percent,0.11848,36005
+Brooklyn,"$15,000 to $24,999",2019,Percent,0.0866,36047
+Manhattan,"$15,000 to $24,999",2019,Percent,0.0619,36061
+Queens,"$15,000 to $24,999",2019,Percent,0.06587,36081
+Staten Island,"$15,000 to $24,999",2019,Percent,0.05906,36085
+Bronx,"$200,000 or more",2019,Percent,0.03261,36005
+Brooklyn,"$200,000 or more",2019,Percent,0.1138,36047
+Manhattan,"$200,000 or more",2019,Percent,0.25076,36061
+Queens,"$200,000 or more",2019,Percent,0.09279,36081
+Staten Island,"$200,000 or more",2019,Percent,0.13795,36085
+Bronx,"$25,000 to $34,999",2019,Percent,0.09102,36005
+Brooklyn,"$25,000 to $34,999",2019,Percent,0.07646,36047
+Manhattan,"$25,000 to $34,999",2019,Percent,0.0523,36061
+Queens,"$25,000 to $34,999",2019,Percent,0.0791,36081
+Staten Island,"$25,000 to $34,999",2019,Percent,0.05623,36085
+Bronx,"$35,000 to $49,999",2019,Percent,0.12261,36005
+Brooklyn,"$35,000 to $49,999",2019,Percent,0.09937,36047
+Manhattan,"$35,000 to $49,999",2019,Percent,0.06415,36061
+Queens,"$35,000 to $49,999",2019,Percent,0.10497,36081
+Staten Island,"$35,000 to $49,999",2019,Percent,0.10431,36085
+Bronx,"$50,000 to $74,999",2019,Percent,0.16897,36005
+Brooklyn,"$50,000 to $74,999",2019,Percent,0.14595,36047
+Manhattan,"$50,000 to $74,999",2019,Percent,0.10604,36061
+Queens,"$50,000 to $74,999",2019,Percent,0.16295,36081
+Staten Island,"$50,000 to $74,999",2019,Percent,0.14659,36085
+Bronx,"$75,000 to $99,999",2019,Percent,0.09595,36005
+Brooklyn,"$75,000 to $99,999",2019,Percent,0.11307,36047
+Manhattan,"$75,000 to $99,999",2019,Percent,0.09737,36061
+Queens,"$75,000 to $99,999",2019,Percent,0.12879,36081
+Staten Island,"$75,000 to $99,999",2019,Percent,0.10099,36085
+Bronx,"Under $15,000",2019,Percent,0.23211,36005
+Brooklyn,"Under $15,000",2019,Percent,0.1349,36047
+Manhattan,"Under $15,000",2019,Percent,0.13616,36061
+Queens,"Under $15,000",2019,Percent,0.09335,36081
+Staten Island,"Under $15,000",2019,Percent,0.07199,36085
