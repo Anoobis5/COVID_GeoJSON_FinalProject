@@ -9,6 +9,7 @@ Are there certain demographic factors (e.g., household income, population densit
 ### Design
 Features: Demographics - **ML or Database team to add**<br/>
 Target: Vaccination Rates
+Variables: TBD
 
 ### Machine Learning Model - **ML team to add**
 * Which model did you choose and why?
@@ -16,14 +17,15 @@ Target: Vaccination Rates
 * What is the model's accuracy?
 * How does this model work?
 
-### Data Sources - **Database team to add**
+### Data Sources - *See Resources Folder*
 Vaccination Table Schema
 Demographic Table Schema
+Census Bureau Data
 
-### Technology - **Tech team to add**
+### Technology - 
 * SQL DB
 * Tensorflow
-* Tableau (?)
+* Tableau tables
 * Heroku
 
 ### __Resources__
