@@ -19,7 +19,7 @@ Are there certain demographic factors (e.g., household income, population densit
 
 ### Data Sources
 
-Vaccination Table Schema <br/>
+[Vaccination Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/Vacc_Data_Schema.csv) <br/>
 
 [Demographic Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/census_data_schema.csv) <br/>
 
