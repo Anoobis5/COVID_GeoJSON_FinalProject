@@ -33,17 +33,6 @@ Are there certain demographic factors (e.g., household income, population densit
 
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
 
-### __Resources__
-
-https://github.com/nychealth/coronavirus-data.git
-
-https://data.ny.gov/
-
-https://covidtracking.com/
-
-https://health.data.ny.gov/browse?tags=covid-19
-
-
 ### Roles
 
 * Kyle: Github, Database, & Tech
