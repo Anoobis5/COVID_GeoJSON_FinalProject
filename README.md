@@ -31,6 +31,8 @@ Are there certain demographic factors (e.g., household income, population densit
 * Tableau tables
 * Heroku
 
+[*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
+
 ### __Resources__
 
 
