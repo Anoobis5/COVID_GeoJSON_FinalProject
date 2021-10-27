@@ -1,10 +1,12 @@
 ## **COVID-19 Vaccination Rate Analysis**
 
 ### Overview
-The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York State residents. 
+
+The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York City residents. 
 
 ### Research Question
-Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates of New York State residents?
+Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates of New York City residents?
+
 
 ### Design
 * Features: Demographics - Race and Population Density
@@ -12,9 +14,10 @@ Are there certain demographic factors (e.g., household income, population densit
 
 
 ### Machine Learning Model
-* **Model**: For our initial model, we are using a deep learning model to predict the COVID-19 vaccination rates of New York State residents. The neural network model behaves like a regression model, where a dependant output variable (vaccination rates) can be predicted from independent input variables (demographic information). 
-* **Training**: The initial model uses two hidden layers. The hidden layers have 20 nodes each and use the ReLU function. The output layer uses the linear activation function to predict the vaccination rates. The model was trained for 100 epochs. 
-* **Results**: The mean squared error (i.e., loss) for the initial model is 2.68. Note, this model is a regression model, which does not capture accuracy. 
+
+* **Model**: For our initial model, we are using a deep learning model to predict the COVID-19 vaccination rates of New York City residents. The neural network model behaves like a regression model, where a dependant output variable (vaccination rates) can be predicted from independent input variables (demographic information). 
+* **Training**: The initial model uses 3 layers including the output layer. The first two layers have 20 nodes each and use the ReLU function. The output layer uses the linear activation function to predict the vaccination rates. The data was trained for 100 epochs. 
+* **Accuracy**: The initial model is a regression model which does not capture accuracy. The mean squared error (i.e., loss) is used to determine the model's efficacy. The mean squared error for the initial model is 2.68. 
 
 
 ### Data Sources
@@ -32,6 +35,8 @@ Are there certain demographic factors (e.g., household income, population densit
 * Heroku
 
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
+
+
 
 ### Roles
 
