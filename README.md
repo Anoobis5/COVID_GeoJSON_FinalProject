@@ -40,7 +40,6 @@ Are there certain demographic factors (e.g., household income, population densit
 
 ### Roles
 
-<<<<<<< HEAD
 https://covidtracking.com/
 
 https://health.data.ny.gov/browse?tags=covid-19
@@ -49,12 +48,11 @@ NYC Census Data:
 
 https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.page##2020-census-results
 
+
+
 ## Role Interests
 
 * Kyle: Github, Databasing, & Tech
-=======
-* Kyle: Github, Database, & Tech
->>>>>>> ac50679b407a97c5fe8559d329fa2ca43ee77d0e
 
 * Helena: Github & Machine Learning
 
