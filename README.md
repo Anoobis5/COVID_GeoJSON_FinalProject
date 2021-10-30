@@ -1,48 +1,46 @@
-## **COLUMBIA FINAL PROJECT**
+## **COVID-19 Vaccination Rate Analysis**
 
-### Main Idea:
+### Overview
 
- 
-### Data needed: 
+The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York City residents. 
 
-  * COVID data tracking 
-  * DOH COVID Data
-  * Census Data
-
-### Pitch 
-
-  *-What do we hope to acheive? -
-
-  *-What steps are being taken to achieve this
-
-  *-Current Progress
-
-  *-Point you plan on being at next week.
-
-### Presentation
-
-#### Research Question
-Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates in New York City?
-
-#### Design
-Features: Demographics (exact fields to be determined during office hours)<br/>
-Target: Vaccination Rates
-
-#### Machine Learning Model
-TBD (initial model to be determined during office hours)
-
-#### Data Sources
-TBD (initial data sources to be determined during office hours)
-
-### __Resources__
+### Research Question
+Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates of New York City residents?
 
 
-NYC COVID Github:
+### Design
+* Features: Demographics - Race and Population Density
+* Target: Vaccination Rate
 
-https://github.com/nychealth/coronavirus-data.git
 
-https://data.ny.gov/
+### Machine Learning Model
 
+* **Model**: For our initial model, we are using a deep learning model to predict the COVID-19 vaccination rates of New York City residents. The neural network model behaves like a regression model, where a dependant output variable (vaccination rates) can be predicted from independent input variables (demographic information). 
+* **Training**: The initial model uses 3 layers including the output layer. The first two layers have 20 nodes each and use the ReLU function. The output layer uses the linear activation function to predict the vaccination rates. The data was trained for 100 epochs. 
+* **Accuracy**: The initial model is a regression model which does not capture accuracy. The mean squared error (i.e., loss) is used to determine the model's efficacy. The mean squared error for the initial model is 2.68. 
+
+
+### Data Sources
+
+[Vaccination Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/Vacc_Data_Schema.csv) <br/>
+
+[Demographic Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/census_data_schema.csv) <br/>
+
+[*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
+
+### Technology
+* SQL DB
+* Tensorflow
+* Tableau tables
+* Heroku
+
+[*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
+
+
+
+### Roles
+
+<<<<<<< HEAD
 https://covidtracking.com/
 
 https://health.data.ny.gov/browse?tags=covid-19
@@ -54,24 +52,16 @@ https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.pag
 ## Role Interests
 
 * Kyle: Github, Databasing, & Tech
+=======
+* Kyle: Github, Database, & Tech
+>>>>>>> ac50679b407a97c5fe8559d329fa2ca43ee77d0e
 
 * Helena: Github & Machine Learning
 
 * Kristin: Machine Learning & Visualization
 
-* Tara: Database & Visualization
+* Tara: Database & Heroku, & Visualization
 
 * Portia: Database & Visualization
 
 * John: Database & Tech
-
-
-### Availability
-
-Weekends during the day
-
-Nights starting at 7pm ET
-
-
-
-
