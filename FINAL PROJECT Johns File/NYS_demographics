@@ -1,0 +1,127 @@
+index,Region,County,White,AfricanAmerican,Asian,Other
+0,Statewide,,70.4%,17.3%,9.2%,3.2%
+1,CapitalRegion,Albany,77.8%,13.2%,6.6%,2.5%
+2,CapitalRegion,Columbia,91.1%,5.1%,1.9%,2.0%
+3,CapitalRegion,Greene,90.2%,6.4%,1.3%,2.1%
+4,CapitalRegion,Rensselaer,87.8%,7.2%,2.8%,2.2%
+5,CapitalRegion,Saratoga,93.6%,1.9%,2.7%,1.7%
+6,CapitalRegion,Schenectady,79.7%,11.6%,4.9%,3.8%
+7,CapitalRegion,Warren,96.1%,1.4%,0.9%,1.6%
+8,CapitalRegion,Washington,94.1%,3.9%,0.6%,1.4%
+9,Central New York,Cayuga,92.7%,4.6%,0.7%,2.0%
+10,Central New York,Cortland,95.0%,2.0%,1.0%,1.9%
+11,Central New York,Madison,94.9%,2.2%,1.0%,1.9%
+12,Central New York,Onondaga,82.3%,10.8%,3.7%,3.1%
+13,Central New York,Oswego,96.4%,1.2%,0.7%,1.7%
+14,Finger Lakes,Genesee,93.6%,3.2%,0.7%,2.5%
+15,Finger Lakes,Livingston,93.6%,3.2%,1.4%,1.8%
+16,Finger Lakes,Monroe,78.9%,15.0%,3.6%,2.4%
+17,Finger Lakes,Ontario,78.9%,15.0%,3.6%,2.4%
+18,Finger Lakes,Orleans,94.2%,2.6%,1.4%,1.9%
+19,Finger Lakes,Seneca,90.3%,6.8%,0.6%,2.3%
+20,Finger Lakes,Wayne,94.3%,3.0%,0.7%,2.0%
+21,Finger Lakes,Wyoming,91.6%,6.5%,0.5%,1.4%
+22,Finger Lakes,Yates,97.0%,0.9%,0.9%,1.2%
+23,Long Island,Nassau,74.1%,13.1%,10.7%,2.2%
+24,Long Island,Suffolk,85.0%,8.5%,4.3%,2.2%
+25,Mid-Hudson,Dutchess,82.0%,11.7%,3.7%,2.5%
+26,Mid-Hudson,Orange,80.3%,13.3%,3.1%,3.3%
+27,Mid-Hudson,Putnam,91.9%,3.9%,2.3%,2.0%
+28,Mid-Hudson,Rockland,76.8%,13.9%,6.9%,2.4%
+29,Mid-Hudson,Sullivan,85.2%,9.9%,2.0%,2.9%
+30,Mid-Hudson,Ulster,88.3%,7.0%,2.1%,2.6%
+31,Mid-Hudson,Westchester,73.8%,16.7%,6.5%,3.1%
+32,Mohawk Valley,Fulton,95.6%,2.2%,0.7%,1.5%
+33,Mohawk Valley,Herkimer,96.7%,1.4%,0.6%,1.4%
+34,Mohawk Valley,Montgomery,93.9%,3.0%,0.9%,2.2%
+35,Mohawk Valley,Oneida,87.8%,6.6%,3.6%,2.0%
+36,Mohawk Valley,Otsego,94.4%,2.4%,1.5%,1.7%
+37,Mohawk Valley,Schoharie,94.9%,1.6%,0.8%,1.7%
+38,New York City,Bronx,44.7%,43.7%,4.7%,6.8%
+39,New York City,Kings,49.4%,34.4%,13.0%,3.3%
+40,New York City,New York,65.3%,17.3%,13.2%,4.2%
+41,New York City,Queens,47.8%,20.7%,27.4%,4.0%
+42,New York City,Richmond,75.5%,11.0%,11.1%,2.4%
+43,North  Country,Clinton,91.9%,4.9%,1.5%,1.7%
+44,North  Country,Essex,94.5%,3.0%,0.8%,1.7%
+45,North  Country,Franklin,83.8%,7.5%,0.5%,8.2%
+46,North  Country,Hamilton,96.6%,1.1%,0.7%,1.6%
+47,North  Country,Jefferson,88.5%,6.7%,1.8%,3.0%
+48,North  Country,Lewis,97.5%,0.7%,0.4%,1.4%
+49,North  Country,St. Lawrence,93.8%,2.8%,1.1%,2.3%
+50,Southern Tier,Broome,87.2%,5.8%,4.6%,2.4%
+51,Southern Tier,Chemung,89.6%,6.4%,1.5%,2.5%
+52,Southern Tier,Chenango,96.8%,1.0%,0.6%,1.6%
+53,Southern Tier,Delaware,95.2%,2.2%,1.1%,1.5%
+54,Southern Tier,Schuyler,96.8%,1.0%,0.7%,1.5%
+55,Southern Tier,Steuben,95.2%,1.7%,1.6%,1.6%
+56,Southern Tier,Tioga,96.8%,1.0%,0.8%,1.4%
+57,Southern Tier,Tompkins,81.5%,4.3%,10.8%,3.3%
+58,Western New York,Allegany,95.7%,1.5%,1.3%,1.4%
+59,Western New York,Cattaraugus,93.2%,1.4%,0.8%,4.6%
+60,Western New York,Chautauqua,94.3%,2.8%,0.7%,2.2%
+61,Western New York,Erie,81.1%,13.1%,3.6%,2.2%
+62,Western New York,Niagara,89.2%,6.8%,1.1%,2.9%
+0,Statewide,,70.4%,17.3%,9.2%,3.2%
+1,CapitalRegion,Albany,77.8%,13.2%,6.6%,2.5%
+2,CapitalRegion,Columbia,91.1%,5.1%,1.9%,2.0%
+3,CapitalRegion,Greene,90.2%,6.4%,1.3%,2.1%
+4,CapitalRegion,Rensselaer,87.8%,7.2%,2.8%,2.2%
+5,CapitalRegion,Saratoga,93.6%,1.9%,2.7%,1.7%
+6,CapitalRegion,Schenectady,79.7%,11.6%,4.9%,3.8%
+7,CapitalRegion,Warren,96.1%,1.4%,0.9%,1.6%
+8,CapitalRegion,Washington,94.1%,3.9%,0.6%,1.4%
+9,Central New York,Cayuga,92.7%,4.6%,0.7%,2.0%
+10,Central New York,Cortland,95.0%,2.0%,1.0%,1.9%
+11,Central New York,Madison,94.9%,2.2%,1.0%,1.9%
+12,Central New York,Onondaga,82.3%,10.8%,3.7%,3.1%
+13,Central New York,Oswego,96.4%,1.2%,0.7%,1.7%
+14,Finger Lakes,Genesee,93.6%,3.2%,0.7%,2.5%
+15,Finger Lakes,Livingston,93.6%,3.2%,1.4%,1.8%
+16,Finger Lakes,Monroe,78.9%,15.0%,3.6%,2.4%
+17,Finger Lakes,Ontario,78.9%,15.0%,3.6%,2.4%
+18,Finger Lakes,Orleans,94.2%,2.6%,1.4%,1.9%
+19,Finger Lakes,Seneca,90.3%,6.8%,0.6%,2.3%
+20,Finger Lakes,Wayne,94.3%,3.0%,0.7%,2.0%
+21,Finger Lakes,Wyoming,91.6%,6.5%,0.5%,1.4%
+22,Finger Lakes,Yates,97.0%,0.9%,0.9%,1.2%
+23,Long Island,Nassau,74.1%,13.1%,10.7%,2.2%
+24,Long Island,Suffolk,85.0%,8.5%,4.3%,2.2%
+25,Mid-Hudson,Dutchess,82.0%,11.7%,3.7%,2.5%
+26,Mid-Hudson,Orange,80.3%,13.3%,3.1%,3.3%
+27,Mid-Hudson,Putnam,91.9%,3.9%,2.3%,2.0%
+28,Mid-Hudson,Rockland,76.8%,13.9%,6.9%,2.4%
+29,Mid-Hudson,Sullivan,85.2%,9.9%,2.0%,2.9%
+30,Mid-Hudson,Ulster,88.3%,7.0%,2.1%,2.6%
+31,Mid-Hudson,Westchester,73.8%,16.7%,6.5%,3.1%
+32,Mohawk Valley,Fulton,95.6%,2.2%,0.7%,1.5%
+33,Mohawk Valley,Herkimer,96.7%,1.4%,0.6%,1.4%
+34,Mohawk Valley,Montgomery,93.9%,3.0%,0.9%,2.2%
+35,Mohawk Valley,Oneida,87.8%,6.6%,3.6%,2.0%
+36,Mohawk Valley,Otsego,94.4%,2.4%,1.5%,1.7%
+37,Mohawk Valley,Schoharie,94.9%,1.6%,0.8%,1.7%
+38,New York City,Bronx,44.7%,43.7%,4.7%,6.8%
+39,New York City,Kings,49.4%,34.4%,13.0%,3.3%
+40,New York City,New York,65.3%,17.3%,13.2%,4.2%
+41,New York City,Queens,47.8%,20.7%,27.4%,4.0%
+42,New York City,Richmond,75.5%,11.0%,11.1%,2.4%
+43,North  Country,Clinton,91.9%,4.9%,1.5%,1.7%
+44,North  Country,Essex,94.5%,3.0%,0.8%,1.7%
+45,North  Country,Franklin,83.8%,7.5%,0.5%,8.2%
+46,North  Country,Hamilton,96.6%,1.1%,0.7%,1.6%
+47,North  Country,Jefferson,88.5%,6.7%,1.8%,3.0%
+48,North  Country,Lewis,97.5%,0.7%,0.4%,1.4%
+49,North  Country,St. Lawrence,93.8%,2.8%,1.1%,2.3%
+50,Southern Tier,Broome,87.2%,5.8%,4.6%,2.4%
+51,Southern Tier,Chemung,89.6%,6.4%,1.5%,2.5%
+52,Southern Tier,Chenango,96.8%,1.0%,0.6%,1.6%
+53,Southern Tier,Delaware,95.2%,2.2%,1.1%,1.5%
+54,Southern Tier,Schuyler,96.8%,1.0%,0.7%,1.5%
+55,Southern Tier,Steuben,95.2%,1.7%,1.6%,1.6%
+56,Southern Tier,Tioga,96.8%,1.0%,0.8%,1.4%
+57,Southern Tier,Tompkins,81.5%,4.3%,10.8%,3.3%
+58,Western New York,Allegany,95.7%,1.5%,1.3%,1.4%
+59,Western New York,Cattaraugus,93.2%,1.4%,0.8%,4.6%
+60,Western New York,Chautauqua,94.3%,2.8%,0.7%,2.2%
+61,Western New York,Erie,81.1%,13.1%,3.6%,2.2%
+62,Western New York,Niagara,89.2%,6.8%,1.1%,2.9%
