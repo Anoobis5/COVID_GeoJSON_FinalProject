@@ -1,0 +1,9 @@
+body {
+
+  color: #00000000;
+}
+.jumbotron {
+  background-image: url("/Users/kristinallocco/Documents/COVID_GeoJSON_FinalProject/static/images/COVID-vaccine.jpg");
+  background-size: 100% 100%;
+  text-align: right;
+}
