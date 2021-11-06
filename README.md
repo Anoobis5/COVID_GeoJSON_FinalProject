@@ -30,7 +30,7 @@ Are there certain demographic factors (e.g., household income, population densit
 
 ### Technology
 * SQL DB
-* Tensorflow
+* SciKitLearn and Tensorflow
 * Tableau tables
 * Heroku
 
