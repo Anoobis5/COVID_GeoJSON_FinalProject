@@ -29,6 +29,9 @@ Are there certain demographic factors (e.g., household income, population densit
 [*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
 
 ### Technology
+* PandaS
+* Python
+* GoogleCollab
 * SQL DB
 * Tensorflow
 * Tableau tables
