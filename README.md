@@ -9,7 +9,7 @@ Are there certain demographic factors (e.g., household income, population densit
 
 
 ### Design
-* Features: Demographics - Race and Population Density
+* Features: Demographics - Race, Polulation Density, Income, and Education
 * Target: Vaccination Rate
 
 
