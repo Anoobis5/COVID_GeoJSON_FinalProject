@@ -9,7 +9,7 @@ Are there certain demographic factors (e.g., household income, population densit
 
 
 ### Design
-* Features: Demographics - Race and Population Density
+* Features: Demographics - Race, Polulation Density, Income, and Education
 * Target: Vaccination Rate
 
 
@@ -33,15 +33,19 @@ Are there certain demographic factors (e.g., household income, population densit
 * Python
 * GoogleCollab
 * SQL DB
-* Tensorflow
+* SciKitLearn and Tensorflow
 * Tableau tables
 * Heroku
 
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
 
 
+### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
 
-### Roles
+
+### Resource Links
+
+https://covidactnow.org/data-api
 
 https://covidtracking.com/
 
