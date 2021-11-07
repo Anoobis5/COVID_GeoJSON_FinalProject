@@ -19,7 +19,7 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 * **Training**: The model uses 1 hidden layer with 10 nodes. The hidden layer uses the tanh function. The output layer uses the linear activation function to predict the vaccination rates. The data was trained for 100 epochs. This model was simplified from the initial model (reduced the number of hidden layers and nodes) to prevent overfitting. See the model summary below. 
 * **Results**: The mean squared error (i.e., loss) was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. 
 
-**Model Summary**
+**Model Summary**<br/>
 ![model_summary](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p2/Analysis/model_summary.png)
 
 ### Data Sources
