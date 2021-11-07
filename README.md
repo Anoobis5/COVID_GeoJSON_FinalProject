@@ -37,8 +37,12 @@ Are there certain demographic factors (e.g., household income, population densit
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
 
 
+### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
 
-### Roles
+
+### Resource Links
+
+https://covidactnow.org/data-api
 
 https://covidtracking.com/
 
