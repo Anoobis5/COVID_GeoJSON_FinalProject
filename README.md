@@ -8,11 +8,12 @@ The purpose of this analysis is to gain insight into what factors impact COVID-1
 Are there certain demographic factors (e.g., household income) that predict vaccination rates of New York State residents?
 
 ### Project Outline
-  *First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents
-  *Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database.
-  *Then: we also collected API data for our GeoJSON map and interactive data elements.
-  *Next: we created schemas for our MachineLearning model.
-  *Finally: We will analyze our data, and visualize it on a dashboard.
+
+  * First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents
+  * Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database.
+  * Then: we also collected API data for our GeoJSON map and interactive data elements.
+  * Next: we created schemas for our MachineLearning model.
+  * Finally: We will analyze our data, and visualize it on a dashboard.
   
   
 ### Contributor Communication Protocols
