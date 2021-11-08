@@ -11,6 +11,7 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 
   * First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents. Since COVID-19 research in on going, there were a lot of different datasources for us to comb through. We aimed to target COVID-19 vaccination rates among various demographics within the residents of New York State by county.
 
+![Vacc_by_County_df](https://user-images.githubusercontent.com/84881187/140678174-5bc9d9c7-742b-4814-a5fa-2fba68399f2f.PNG)
 
   * Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database. You can find the links to the various data sources below.
 
