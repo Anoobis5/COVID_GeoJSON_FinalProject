@@ -9,11 +9,19 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 
 ### Project Outline
 
-  * First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents
-  * Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database.
-  * Then: we also collected API data for our GeoJSON map and interactive data elements.
-  * Next: we created schemas for our MachineLearning model to run.
-  * Finally: We will analyze our data, and visualize it on a dashboard.
+  * First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents. Since COVID-19 research in on going, there were a lot of different datasources for us to comb through. We aimed to target COVID-19 vaccination rates among various demographics within the residents of New York State by county.
+
+
+  * Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database. You can find the links to the various data sources below.
+
+
+  * Then: we also collected API data for our GeoJSON map and interactive data elements. Fortunately, the site covidactnow.org consolidated several of the datasource we were already using, along with regularly update API.
+
+
+  * Next: we created schemas for our MachineLearning model to run the analysis. We then used a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model behaves like a regression model, where a dependant variable (vaccination rates) can be predicted from independent variables (demographic information). 
+
+
+  * Finally: We will analyze our data, and visualize it on a dashboard using Heroku, Tableau, and an interactive GeoJSON map.
   
   
 ### Contributor Communication Protocols
@@ -45,7 +53,7 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 [Demographic Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/census_data_schema.csv) <br/>
 
 [*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
-gis.ny.gov/gis data
+
 ### Technology
 * PandaS
 * Python
@@ -69,6 +77,8 @@ https://covidactnow.org/data-api
 https://covidtracking.com/
 
 https://health.data.ny.gov/browse?tags=covid-19
+
+gis.ny.gov/gis
 
 NYC Census Data:
 
