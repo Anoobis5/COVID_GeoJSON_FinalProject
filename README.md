@@ -12,7 +12,7 @@ Are there certain demographic factors (e.g., household income) that predict vacc
   * First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents
   * Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database.
   * Then: we also collected API data for our GeoJSON map and interactive data elements.
-  * Next: we created schemas for our MachineLearning model.
+  * Next: we created schemas for our MachineLearning model to run.
   * Finally: We will analyze our data, and visualize it on a dashboard.
   
   
