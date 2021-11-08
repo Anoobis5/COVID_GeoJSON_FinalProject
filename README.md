@@ -2,14 +2,29 @@
 
 ### Overview
 
-The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York City residents. 
+The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York State residents. 
 
 ### Research Question
 Are there certain demographic factors (e.g., household income, population density) that predict vaccination rates of New York City residents?
 
+### Project Outline
+  *First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents
+  *Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database.
+  *Then: we also collected API data for our GeoJSON map and interactive data elements.
+  *Next: we created schemas for our MachineLearning model.
+  *Finally: We will analyze our data, and visualize it on a dashboard.
+  
+  
+### Contributor Communication Protocols
+
+  * Each member of the data analysis team communicates via a Slack message channel. 
+  * Collaborative, transdiciplinary, approaches are used to solve problems and analyses.
+  * Merges are confirmed as a group to reduce merge conflicts/errors.
+  * Personal Phone Numbers are also exchanged for assistance as pre-detrmined availability times.
+
 
 ### Design
-* Features: Demographics - Race and Population Density
+* Features: Demographics - Race, Polulation Density, Income, and Education
 * Target: Vaccination Rate
 
 
@@ -37,8 +52,12 @@ Are there certain demographic factors (e.g., household income, population densit
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
 
 
+### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
 
-### Roles
+
+### Resource Links
+
+https://covidactnow.org/data-api
 
 https://covidtracking.com/
 
