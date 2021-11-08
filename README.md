@@ -22,9 +22,10 @@ Are there certain demographic factors (e.g., household income) that predict vacc
   * Next: we created schemas for our MachineLearning model to run the analysis. We then used a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model behaves like a regression model, where a dependant variable (vaccination rates) can be predicted from independent variables (demographic information). 
 
 
-  * Finally: We will analyze our data, and visualize it on a dashboard using Heroku, Tableau, and an interactive GeoJSON map. We used the Vaccination Data and Census data to analyze COVID-19 Vaccination Rates across several demographics among New York State Residents, including, income, education, and county. See below for some examples of our data visuals  to be used in the completed dashboard:
+  * Finally: We will analyze our data, and visualize it on a dashboard using Heroku, Tableau, and an interactive GeoJSON map. We used the Vaccination Data and Census data to analyze COVID-19 Vaccination Rates across several demographics among New York State Residents, including, income, education, and ethnicity. See below for some examples of our data visuals  to be used in the completed dashboard:
   ![Income_and_Education](https://user-images.githubusercontent.com/84881187/140678561-628ee2d4-3acf-45d1-85e0-8e0a33d43ccc.PNG)
-![Counties with most cases](https://user-images.githubusercontent.com/84881187/140678618-d62d2742-44b6-4dc4-9b29-fc6a04fd5232.PNG)
+
+![Ethnicity of Covid Cases](https://user-images.githubusercontent.com/84881187/140678892-c45b4c45-ca02-4ae0-87d1-d700008bbf7c.PNG)
 
   
 ### Contributor Communication Protocols
