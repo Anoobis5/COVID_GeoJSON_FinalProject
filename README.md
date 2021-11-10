@@ -125,3 +125,8 @@ We will be using Heroku to fomulate our dashboard. We plan on using Flask, and w
 * https://covidactnow.org/data-api
 * CSS
 
+# Final READ.me
+
+## Project Overview
+
+The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York State residents. Are there certain demographic factors (e.g., household income) that predict vaccination rates of New York State residents?
