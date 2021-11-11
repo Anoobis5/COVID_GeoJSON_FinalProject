@@ -78,9 +78,10 @@ None of the demographic variables predicted vaccination rates with *Adjusted R-s
 #### Feature Selection
 Given that there was not a significant relationship between vaccination rates and any demographic factors, we chose to not exclude any demographic factors from our model. 
 
-### Machine Learning Model
 #### Train & Test Data
-We split the data using scikit-learn's train_test_split and scaled the data by fitting a StandardScaler instance. 
+For the model, we split the data using scikit-learn's train_test_split and scaled the data by fitting a StandardScaler instance. 
+
+### Machine Learning Model
 
 #### Model Choice
 We chose to use a neural network to predict vaccination rates because the model behaves like a regression model, where a dependant variable or target (i.e., vaccination rates) can be predicted from independent variables or features (i.e., demographic information). 
