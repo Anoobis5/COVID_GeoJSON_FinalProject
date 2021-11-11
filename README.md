@@ -65,7 +65,7 @@ H2: Of all demographic factors, Income is most predictive of vaccination rates a
 #### Hypothesis Testing - Multiple Regression
 To determine what demographic variables could be predictors of vaccination rate, a multiple regression was conducted with the preprocessed data. <br/>
 
-Independent Variables: Race, Population, Household Income, Family Status & Education <br/>
+Independent Variables: Population, Age, Income, Race, Education, Housing <br/>
 Dependent Variable: Vaccination Rate <br/>
 
 *[R script file](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Analysis/multipleregression.R)*
