@@ -103,7 +103,7 @@ We chose to use a neural network to predict vaccination rates because the model 
 * The current and original models were both trained for 100 epochs. 
 
 #### Model Results
-The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.001 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
+The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
 
 ### Data Sources
 
