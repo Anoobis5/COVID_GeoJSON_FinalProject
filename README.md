@@ -71,7 +71,7 @@ Dependent Variable: Vaccination Rate <br/>
 *[R script file](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Analysis/multipleregression.R)*
 
 #### Results
-None of the demographic variables predicted vaccination rates with *Adjusted R-squared* = 0.4769 *p* = 0.1286 and all demographic variables *p* > 0.1. There may be a directional relationship between Income Groups $0 to < $10,000 with the lowest p-value of all demographic variables (*p* = 0.113). Given that our dataset was limited to 46 New York State Counties / County Groups, the multiple regression was likely under-powered. For future research, we recommend expanding the dataset to a larger region (e.g., the United States) to ensure there are enough counties to power the multiple regression model. <br/>
+None of the demographic variables predicted vaccination rates with *Adjusted R-squared* = 0.4769, *p* = 0.1286 and all demographic variables *p* > 0.1. There may be a marginally significant relationship between Income Groups $0 to < $10,000 and vaccination rates as it had the lowest p-value of all demographic variables (*p* = 0.113). Given that our dataset was limited to 46 New York State Counties / County Groups, the multiple regression was likely under-powered. For future research, we recommend expanding the dataset to a larger region (e.g., the United States) to ensure there are enough counties to power the multiple regression model. <br/>
 
 *[R Output](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p3/Analysis/multiple_regression_results.txt)*
 
@@ -100,7 +100,7 @@ We chose to use a neural network to predict vaccination rates because the model 
 ![model_summary](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Analysis/model_summary.png)
 
 #### Model Training
-* The current and original models were both trained for 100 epochs. 
+The current and original models were both trained for 100 epochs. 
 
 #### Model Results
 The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
