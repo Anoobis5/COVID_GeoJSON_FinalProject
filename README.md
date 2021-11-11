@@ -35,20 +35,76 @@ Are there certain demographic factors (e.g., household income) that predict vacc
   * Merges are confirmed as a group to reduce merge conflicts/errors.
   * Personal Phone Numbers are also exchanged for assistance as pre-detrmined availability times.
 
+## Machine Learning & Feature Selection
 
-### Design
-* Features: Demographics - Race, Population, Household Income, Family Status & Education
-* Target: Vaccination Rate
+### Preprocessing
 
+#### Vaccination Preprocessing
+ADD PORTIA'S DESCRIPTION OF VAX API PREPROCESSING HERE <br/>
+
+In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
+
+#### Demographic Preprocessing
+ADD JOHN'S DESCRIPTION OF DEMO/INCOME PREPROCESSING HERE <br/>
+
+Following the initial preprocessing, the demographic features were narrowed down to 'Households with Elderly', 'Households with Children', 'Income Groups', 'Percent of Poverty Level', 'Low-to-Moderate Income (LMI) Group', 'Housing Unit Type', 'Education Level', 'Head of Household Age', 'Race / Ethnicity'. The index, 'Economic Development Region' and 'LMI Population Segment' were removed from the file because the 'index' and 'Economic Development Region' were extraneous labels and 'LMI Population Segment' is an aggregate of two features that are already captured in the data ('Low-to-Moderate Income (LMI) Group', 'Housing Unit Type'). The rows with null data were also removed and the demographic features were recoded using OneHotEncoder to change the categorical data to numeric so it can be used in the model. The encoded data were then merged back into the original demographic file and the data was summed and aggregated by county.
+
+#### Final Preprocessing
+The vaccination and demographic dataframes were then merged to create one file with the vaccination rates and demographics for each county. The county was then dropped from the dataframe. 
+
+### Feature Engineering & Selection
+
+Our team was initially interested in seeing if any demographics could predict vaccination rates so we included all demographic features from the data sources we had available. The features include those related to age (i.e., Households with Elderly, Households with Children, Head of Household Age), Race / Ethnicity, Education Level, Housing (e.g., single family home, multi-family apartment unit), Income (Household Income, Percent of Poverty Level, Low-to-Moderate Income groups) and Population. Of these demographic factors, our team hypothesized that income would be the best predictors of vaccination rates. <br/>
+
+ADD MORE DETAIL ON KRISTIN'S HYPOHTESIS HERE
+
+#### Hypotheses
+H1: Demographic factors (i.e., Population, Age, Income, Race, Education, Housing) impact vaccination rates among New York State residents. <br/>
+H2: Of all demographic factors, Income is most predictive of vaccination rates among New York State residents. <br/>
+
+#### Hypothesis Testing - Multiple Regression
+To determine what demographic variables could be predictors of vaccination rate, a multiple regression was conducted with the preprocessed data. <br/>
+
+Independent Variables: Population, Age, Income, Race, Education, Housing <br/>
+Dependent Variable: Vaccination Rate <br/>
+
+*[R script file](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Analysis/multipleregression.R)*
+
+#### Results
+None of the demographic variables predicted vaccination rates with *Adjusted R-squared* = 0.4769, *p* = 0.1286 and all demographic variables *p* > 0.1. There may be a marginally significant relationship between Income Groups $0 to < $10,000 and vaccination rates as it had the lowest p-value of all demographic variables (*p* = 0.113). Given that our dataset was limited to 46 New York State Counties / County Groups, the multiple regression was likely under-powered. For future research, we recommend expanding the dataset to a larger region (e.g., the United States) to ensure there are enough counties to power the multiple regression model. <br/>
+
+*[R Output](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p3/Analysis/multiple_regression_results.txt)*
+
+#### Feature Selection
+Given that there was not a significant relationship between vaccination rates and any demographic factors, we chose to not exclude any demographic factors from our model. 
+
+#### Train & Test Data
+For the model, we split the data using scikit-learn's train_test_split and scaled the data by fitting a StandardScaler instance. 
 
 ### Machine Learning Model
 
-* **Model**: We are using a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model behaves like a regression model, where a dependant variable (vaccination rates) can be predicted from independent variables (demographic information). 
-* **Training**: The model uses 1 hidden layer with 10 nodes. The hidden layer uses the tanh function. The output layer uses the linear activation function to predict the vaccination rates. The data was trained for 100 epochs. This model was simplified from the initial model (reduced the number of hidden layers and nodes) to prevent overfitting. See the model summary below. 
-* **Results**: The mean squared error (i.e., loss) was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. 
+#### Model Choice
+We chose to use a neural network to predict vaccination rates because the model behaves like a regression model, where a dependant variable or target (i.e., vaccination rates) can be predicted from independent variables or features (i.e., demographic information). 
 
-**Model Summary**<br/>
-![model_summary](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p2/Analysis/model_summary.png)
+#### Limitations
+* One key limitation of this model is that it does not allow us to pinpoint the exact feature or set of features that are most predictive of vaccination rates. 
+* Because we are trying to predict rates (i.e., a continuous variable) rather than a category (e.g., vaccinated / not vaccinated), we are also unable to calculate the accuracy of the model or generate a confusion matrix. Rather than determine the success of the model based on accuracy, we calculate the mean squared error (i.e., loss) and use the distance between the test and train loss to determine whether the model was successful at predicting the target. 
+
+#### Benefits
+* The primary benefit of this model is that it can be used to predict the vaccination rate based on a large number of demographic factors. 
+
+#### Changes to the Model
+* We simplified the original model to prevent overfitting, which was causing a large difference between the test and train loss. The original model had two hidden layers with 100 nodes per layer and multiple activation functions (tanh and relu). 
+* The current model only has one hidden layer with 10 nodes and one activation function (tanh). 
+
+#### Model Summary
+![model_summary](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Analysis/model_summary.png)
+
+#### Model Training
+The current and original models were both trained for 100 epochs. 
+
+#### Model Results
+The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
 
 ### Data Sources
 
