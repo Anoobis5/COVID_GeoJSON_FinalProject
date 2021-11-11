@@ -73,7 +73,7 @@ Dependent Variable: Vaccination Rate <br/>
 #### Results
 None of the demographic variables predicted vaccination rates with *Adjusted R-squared* = 0.4769 *p* = 0.1286 and all demographic variables *p* > 0.1. There may be a directional relationship between Income Groups $0 to < $10,000 with the lowest p-value of all demographic variables (*p* = 0.113). Given that our dataset was limited to 46 New York State Counties / County Groups, the multiple regression was likely under-powered. For future research, we recommend expanding the dataset to a larger region (e.g., the United States) to ensure there are enough counties to power the multiple regression model. <br/>
 
-*[R Output](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Analysis/multiple_regression_results.txt)*
+*[R Output](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p3/Analysis/multiple_regression_results.txt)*
 
 #### Feature Selection
 Given that there was not a significant relationship between vaccination rates and any demographic factors, we chose to not exclude any demographic factors from our model. 
