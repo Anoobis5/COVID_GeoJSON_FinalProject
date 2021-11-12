@@ -133,3 +133,6 @@ dmypy.json
 
 #password
 password.py
+
+#api
+covid_act_now.py
