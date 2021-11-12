@@ -1,3 +1,0 @@
-covid_act_now_api_key= '7b02a457b666430eaa4ab300b9e89410'
-
-changes made
