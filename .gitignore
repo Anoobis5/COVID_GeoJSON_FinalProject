@@ -134,3 +134,4 @@ dmypy.json
 # config
 config.py
 password.py
+.DS_Store
