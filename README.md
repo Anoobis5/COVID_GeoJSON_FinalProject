@@ -54,7 +54,7 @@ The vaccination and demographic dataframes were then merged to create one file w
 
 ### Feature Engineering & Selection
 
-Our team was initially interested in seeing if any demographics could predict vaccination rates so we included all demographic features from the data sources we had available. The features include those related to age (i.e., Households with Elderly, Households with Children, Head of Household Age), Race / Ethnicity, Education Level, Housing (e.g., single family home, multi-family apartment unit), Income (Household Income, Percent of Poverty Level, Low-to-Moderate Income groups) and Population. Of these demographic factors, our team hypothesized that income would be the best predictors of vaccination rates. <br/>
+Our team was initially interested in seeing if any demographics could predict vaccination rates so we included all demographic features from the data sources we had available. The features include those related to age (i.e., Households with Elderly, Households with Children, Head of Household Age), Race / Ethnicity, Education Level, Housing (e.g., single family home, multi-family apartment unit), Income (Household Income, Percent of Poverty Level, Low-to-Moderate Income groups) and Population. Of these demographic factors, our team hypothesized that income would be the best predictor of vaccination rates. <br/>
 
 ADD MORE DETAIL ON KRISTIN'S HYPOHTESIS HERE
 
