@@ -27,14 +27,6 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 
 ![Ethnicity of Covid Cases](https://user-images.githubusercontent.com/84881187/140678892-c45b4c45-ca02-4ae0-87d1-d700008bbf7c.PNG)
 
-  
-### Contributor Communication Protocols
-
-  * Each member of the data analysis team communicates via a Slack message channel. 
-  * Collaborative, transdiciplinary, approaches are used to solve problems and analyses.
-  * Merges are confirmed as a group to reduce merge conflicts/errors.
-  * Personal Phone Numbers are also exchanged for assistance as pre-detrmined availability times.
-
 
 ### Design
 * Features: Demographics - Race, Population, Household Income, Family Status & Education
@@ -125,8 +117,33 @@ We will be using Heroku to fomulate our dashboard. We plan on using Flask, and w
 * https://covidactnow.org/data-api
 * CSS
 
-# Final READ.me
+# COVID Vaccination Rates GeoJSON Project
 
 ## Project Overview
 
 The purpose of this analysis is to gain insight into what factors impact COVID-19 vaccination rates for New York State residents. Are there certain demographic factors (e.g., household income) that predict vaccination rates of New York State residents?
+
+## Table of Contents
+
+ - [Installation](#installation)
+ - [Analysis](#Analysis)
+ - [Results](#results)
+ - [Results](#credits)
+ - [Data Sources](#data_sources)
+
+## Installation
+
+Requirements to begin the project. Technology used. and base codes
+
+## Analysis
+
+descriptions and examples of code on how wwe analyse the data.
+[insert pics here]
+
+## Results
+\
+
+
+## Data Sources
+
+
