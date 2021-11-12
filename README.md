@@ -129,7 +129,7 @@ The purpose of this analysis is to gain insight into what factors impact COVID-1
  - [Analysis](#Analysis)
  - [Results](#results)
  - [Results](#credits)
- - [Data Sources](#data sources)
+ - [Data_Sources](#data_sources)
 
 ## Installation
 
@@ -144,6 +144,6 @@ descriptions and examples of code on how wwe analyse the data.
 \
 
 
-## Data Sources
+## Data_Sources
 
 
