@@ -29,12 +29,15 @@ For our analysis, we used a 4 part stack series:
  * We used Heroku to formulate our dashboard. We used Tableau, Flask, and integreated D3.js for fully functioning and interactive visualizations on the dashboard. 
 
 ## Analysis
+
 ### Preprocessing
 
 #### Vaccination Preprocessing
 ADD PORTIA'S DESCRIPTION OF VAX API PREPROCESSING HERE <br/>
 
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
+
+
 
 #### Demographic Preprocessing
 
@@ -46,15 +49,20 @@ Data Sources: As with all good research it depends on the validity & accuracy of
 
 Key Factors: Once we had our data sources drilled down, we began to see what they had to offer. The team brainstormed on a myriad of factors that we believed had a correlation ranging from income, population density, demographic, fatality rates, hospitalizations, education, average form of transportation (i.e. car v public transit) etc. We ultimately decided that for the scope of this project, the key factors we wanted to focus in and analyze were: household income, Race/Ethnicity, NYS vaccination rates by county, housing & head of household education level.
 
-ETL & Database
-Once we had all the above identified, we began to parse and manipulate the data into forms that were fucntional for all later stages of the project. Most of the data had to be pulled from the websites manually via csv, but for one data source Portia was able to connect an API to retrieve the data. For the data that came back via csv, it was pulled into an excel document to do initial inspections of the data and to be sure that it was complete. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
+#### ETL & Database
+Once we had all the above identified, we began to parse and manipulate the data into forms that were fucntional for all later stages of the project. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
 
-In order to fill this missing piece we created a SQL database using PGAdmin in order to store and house our data. It was at this step that we thought it helpful to merge our race/ethnicity table with our low income table. This was completed using SQL within the database, which in turn created a new data table for our use. Once all the data tables were aggregated and successfully stored within our database they were sent to our machine learning model mechanic.
+In order to fill this missing piece we created a SQL database using PGAdmin in order to store and house our data. It was at this step that we thought it helpful to merge our race/ethnicity table with our low income table. This was completed using SQL within the database, which in turn created a new data table for our use. Once all the data tables were aggregated and successfully stored within our database they were sent applied to our Machine Learning model.
+![Vacc_by_County_df](https://user-images.githubusercontent.com/84881187/140678174-5bc9d9c7-742b-4814-a5fa-2fba68399f2f.PNG)
+![Datatypes](https://user-images.githubusercontent.com/84881187/141400709-2a6b04b3-62a3-4533-bf12-29dcec134e50.PNG)
+
 
 Following the initial preprocessing, the demographic features were narrowed down to 'Households with Elderly', 'Households with Children', 'Income Groups', 'Percent of Poverty Level', 'Low-to-Moderate Income (LMI) Group', 'Housing Unit Type', 'Education Level', 'Head of Household Age', 'Race / Ethnicity'. The index, 'Economic Development Region' and 'LMI Population Segment' were removed from the file because the 'index' and 'Economic Development Region' were extraneous labels and 'LMI Population Segment' is an aggregate of two features that are already captured in the data ('Low-to-Moderate Income (LMI) Group', 'Housing Unit Type'). The rows with null data were also removed and the demographic features were recoded using OneHotEncoder to change the categorical data to numeric so it can be used in the model. The encoded data were then merged back into the original demographic file and the data was summed and aggregated by county.
 
 #### Final Preprocessing
 The vaccination and demographic dataframes were then merged to create one file with the vaccination rates and demographics for each county. The county was then dropped from the dataframe. 
+![final_Df](https://user-images.githubusercontent.com/84881187/141401092-5fed8e04-0bb7-4275-bf2c-d98c6dee0047.PNG)
+
 
 ### Feature Engineering & Selection
 
