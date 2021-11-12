@@ -1,4 +1,4 @@
-chromedriver = 2.24.1; 
+chromedriver == 2.24.1; 
 flask = 2.0.2;        
 flask-sqlalchemy = 2.5.1; 
 geojson = 2.5.0;                   
