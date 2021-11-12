@@ -129,7 +129,7 @@ The purpose of this analysis is to gain insight into what factors impact COVID-1
  - [Analysis](#Analysis)
  - [Results](#results)
  - [Results](#credits)
- - [Data Sources](#data_sources)
+ - [Data Sources](#Data Sources)
 
 ## Installation
 
