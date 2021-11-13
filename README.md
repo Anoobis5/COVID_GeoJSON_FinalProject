@@ -12,7 +12,7 @@ The purpose of this analysis is to gain insight into what factors impact COVID-1
  - [Credits](#credits)
  - [Data_Sources](#data_sources)
 
-## Installation
+## Installations
 
 For our analysis, we used a 4 part stack series:
 
