@@ -46,7 +46,7 @@ Our team agreed upon the mission to identify potential correlating factors in ef
 
  * Scope: We discussed having our scope being NYC 5-boroughs VS New York State. Upon looking at the data we gathered, we decided to broaden our sample to vaccination rates across New York State, with our geographic measure being at the county level.
 
- * Data Sources: We found tons of data from a variation of The data sources chosen included aggregate data from: the US Center for Disease Control, New York State Department of Health and New York City entities. Complete list of resources used can be found [here](data_sources).
+ * Data Sources: We found tons of data from a variation of The data sources chosen included aggregate data from: the US Center for Disease Control, New York State Department of Health and New York City entities. Complete list of resources used can be found [here](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources).
 
  * Key Factors: Once we had our data sources drilled down, we began to see what they had to offer. The team brainstormed on a myriad of factors that we believed had a correlation ranging from income, population density, demographic, fatality rates, hospitalizations, education, average form of transportation (i.e. car v public transit) etc. We ultimately decided that for the scope of this project, the key factors we wanted to focus in and analyze were: household income, Race/Ethnicity, NYS vaccination rates by county, housing & head of household education level.
 
