@@ -53,7 +53,7 @@ Our team agreed upon the mission to identify potential correlating factors in ef
 
 #### ETL & Database
 
-Once we had all the above identified within our datasources, we began to parse and transform the data into forms that were fucntional for all later stages of the project. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
+Once we had all the above identified within our datasources, we began to parse and transform the data into forms that were fucntional for all later stages of the analysis. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
 
 In order to fill this missing piece we created a SQL database using PGAdmin in order to store and house our data. It was at this step that we thought it helpful to merge our race/ethnicity table with our low income table. This was completed using SQL within the database, which in turn created a new data table for our use. Once all the data tables were aggregated and successfully stored within our database they were sent applied to our Machine Learning model.
 ![Vacc_by_County_df](https://user-images.githubusercontent.com/84881187/140678174-5bc9d9c7-742b-4814-a5fa-2fba68399f2f.PNG)
@@ -124,17 +124,7 @@ None of the demographic variables predicted vaccination rates with *Adjusted R-s
 
 ### Project Outline
 
-  * First: we needed to collect data on COVID-19 Vaccination Rates for New York State, and data on New York State residents. Since COVID-19 research in on going, there were a lot of different datasources for us to comb through. We aimed to target COVID-19 vaccination rates among various demographics within the residents of New York State by county.
-
-![Vacc_by_County_df](https://user-images.githubusercontent.com/84881187/140678174-5bc9d9c7-742b-4814-a5fa-2fba68399f2f.PNG)
-
-  * Next: we pulled data from all applicable data sources, cleaned, transformed, and merged our data in a database using PostgreSQL as our database. You can find the links to the various data sources below.
-
-
   * Then: we also collected API data for our GeoJSON map and interactive data elements. Fortunately, the site covidactnow.org consolidated several of the datasource we were already using, along with regularly update API.
-
-
-  * Next: we created schemas for our MachineLearning model to run the analysis. We then used a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model behaves like a regression model, where a dependant variable (vaccination rates) can be predicted from independent variables (demographic information). 
 
 
   * Finally: We will analyze our data, and visualize it on a dashboard using Heroku, Tableau, and an interactive GeoJSON map. We used the Vaccination Data and Census data to analyze COVID-19 Vaccination Rates across several demographics among New York State Residents, including, income, education, and ethnicity. See below for some examples of our data visuals  to be used in the completed dashboard:
@@ -152,48 +142,6 @@ None of the demographic variables predicted vaccination rates with *Adjusted R-s
 
 [*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
 
-
-
-
-
-### Design
-* Features: Demographics - Race, Population, Household Income, Family Status & Education
-* Target: Vaccination Rate
-
-
-### Machine Learning Model
-
-* **Model**: We are using a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model behaves like a regression model, where a dependant variable (vaccination rates) can be predicted from independent variables (demographic information). 
-* **Training**: The model uses 1 hidden layer with 10 nodes. The hidden layer uses the tanh function. The output layer uses the linear activation function to predict the vaccination rates. The data was trained for 100 epochs. This model was simplified from the initial model (reduced the number of hidden layers and nodes) to prevent overfitting. See the model summary below. 
-* **Results**: The mean squared error (i.e., loss) was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. 
-
-**Model Summary**<br/>
-![model_summary](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p2/Analysis/model_summary.png)
-
-### Data Sources
-
-[Vaccination Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/Vacc_Data_Schema.csv) <br/>
-
-[Demographic Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/census_data_schema.csv) <br/>
-
-[*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
-
-### Technology
-* PandaS
-* Python
-* GoogleCollab
-* SQL DB
-* SciKitLearn and Tensorflow
-* Tableau tables
-* Heroku
-* VS Code
-
-[*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
-
-
-### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
-
-
 ### Resource Links
 
 https://covidactnow.org/data-api
@@ -209,41 +157,45 @@ NYC Census Data:
 https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.page##2020-census-results
 
 
-
-## Role Interests
-
-* Kyle: Github, Databasing, & Tech
-
-* Helena: Github & Machine Learning
-
-* Kristin: Machine Learning & Visualization
-
-* Tara: Database & Heroku, & Visualization
-
-* Portia: Database & Visualization
-
-* John: Database & Tech
-
-
-# Technologies Used
-
-## Data Cleaning and Analysis
-Pandas, Python and Google Collab will be used to clean the data and perform an exploratory analysis.
-
-## Database Storage
-PostgreSQL is the database we intend to use for our data.
-
-## Machine Learning
-SciKitLearn and Tensorflow were the ML libraries we'll be using to create a classifier.
-
-## Dashboard
-We will be using Heroku to fomulate our dashboard. We plan on using Flask, and we may also integrate D3.js for a fully functioning and interactive visualizations on our dashboard.
+### Technology
 
 * GeoJson Mapping
 * Java Script
 * HTML
 * https://covidactnow.org/data-api
 * CSS
+* PandaS
+* Python
+* GoogleCollab
+* SQL DB
+* SciKitLearn and Tensorflow
+* Tableau tables
+* Heroku
+* VS Code
+
+[*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
+
+
+### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
+
+
+
+## Project Roles
+
+* Kyle Y.: Github, Databasing, & Tech
+
+* Helena R.: Github & Machine Learning
+
+* Kristin A.: Machine Learning & Visualization
+
+* Tara K.: Database & Heroku, & Visualization
+
+* Portia W.: Database & Visualization
+
+* John F.: Database & Tech
+
+
+
 
 
 
