@@ -48,12 +48,12 @@ Our team agreed upon the mission to identify potential correlating factors in ef
 
  * Data Sources: We found tons of data from a variation of The data sources chosen included aggregate data from: the US Center for Disease Control, New York State Department of Health and New York City entities. Complete list of resources used can be found [here](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources).
 
- * Key Factors: Once we had our data sources drilled down, we began to see what they had to offer. The team brainstormed on a myriad of factors that we believed had a correlation ranging from income, population density, demographic, fatality rates, hospitalizations, education, average form of transportation (i.e. car v public transit) etc. We ultimately decided that for the scope of this project, the key factors we wanted to focus in and analyze were: household income, Race/Ethnicity, NYS vaccination rates by county, housing & head of household education level.
+ * Key Factors: Once we had our data sources narrowed down, we began to see what they had to offer. The team considered various factors that we believed had a correlation on residents' decisions to get vaccinated ranging from income, population density, demographic, fatality rates, hospitalizations, education, average form of transportation (i.e. car v public transit) etc. We ultimately decided that for the scope of this project, the key factors we wanted to focus in and analyze were: household income, Race/Ethnicity, NYS vaccination rates by county, housing & head of household education level.
 
 
 #### ETL & Database
 
-Once we had all the above identified, we began to parse and manipulate the data into forms that were fucntional for all later stages of the project. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
+Once we had all the above identified within our datasources, we began to parse and transform the data into forms that were fucntional for all later stages of the project. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
 
 In order to fill this missing piece we created a SQL database using PGAdmin in order to store and house our data. It was at this step that we thought it helpful to merge our race/ethnicity table with our low income table. This was completed using SQL within the database, which in turn created a new data table for our use. Once all the data tables were aggregated and successfully stored within our database they were sent applied to our Machine Learning model.
 ![Vacc_by_County_df](https://user-images.githubusercontent.com/84881187/140678174-5bc9d9c7-742b-4814-a5fa-2fba68399f2f.PNG)
@@ -96,13 +96,6 @@ For the model, we split the data using scikit-learn's train_test_split and scale
 #### Model Choice
 We chose to use a neural network to predict vaccination rates because the model behaves like a regression model, where a dependant variable or target (i.e., vaccination rates) can be predicted from independent variables or features (i.e., demographic information). 
 
-
-## Results
-None of the demographic variables predicted vaccination rates with *Adjusted R-squared* = 0.4769, *p* = 0.1286 and all demographic variables *p* > 0.1. There may be a marginally significant relationship between Income Groups $0 to < $10,000 and vaccination rates as it had the lowest p-value of all demographic variables (*p* = 0.113). Given that our dataset was limited to 46 New York State Counties / County Groups, the multiple regression was likely under-powered. For future research, we recommend expanding the dataset to a larger region (e.g., the United States) to ensure there are enough counties to power the multiple regression model. <br/>
-
-*[R Output](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p3/Analysis/multiple_regression_results.txt)*
-
-
 #### Limitations
 * One key limitation of this model is that it does not allow us to pinpoint the exact feature or set of features that are most predictive of vaccination rates. 
 * Because we are trying to predict rates (i.e., a continuous variable) rather than a category (e.g., vaccinated / not vaccinated), we are also unable to calculate the accuracy of the model or generate a confusion matrix. Rather than determine the success of the model based on accuracy, we calculate the mean squared error (i.e., loss) and use the distance between the test and train loss to determine whether the model was successful at predicting the target. 
@@ -123,13 +116,10 @@ The current and original models were both trained for 100 epochs.
 #### Model Results
 The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
 
-### Data_Sources
+## Results
+None of the demographic variables predicted vaccination rates with *Adjusted R-squared* = 0.4769, *p* = 0.1286 and all demographic variables *p* > 0.1. There may be a marginally significant relationship between Income Groups $0 to < $10,000 and vaccination rates as it had the lowest p-value of all demographic variables (*p* = 0.113). Given that our dataset was limited to 46 New York State Counties / County Groups, the multiple regression was likely under-powered. For future research, we recommend expanding the dataset to a larger region (e.g., the United States) to ensure there are enough counties to power the multiple regression model. <br/>
 
-[Vaccination Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/Vacc_Data_Schema.csv) <br/>
-
-[Demographic Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/census_data_schema.csv) <br/>
-
-[*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
+*[R Output](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/hrabasco-ml-p3/Analysis/multiple_regression_results.txt)*
 
 
 ### Project Outline
@@ -150,7 +140,20 @@ The mean squared error (i.e., loss) was was used to determine the model's effica
   * Finally: We will analyze our data, and visualize it on a dashboard using Heroku, Tableau, and an interactive GeoJSON map. We used the Vaccination Data and Census data to analyze COVID-19 Vaccination Rates across several demographics among New York State Residents, including, income, education, and ethnicity. See below for some examples of our data visuals  to be used in the completed dashboard:
   ![Income_and_Education](https://user-images.githubusercontent.com/84881187/140678561-628ee2d4-3acf-45d1-85e0-8e0a33d43ccc.PNG)
 
-![Ethnicity of Covid Cases](https://user-images.githubusercontent.com/84881187/140678892-c45b4c45-ca02-4ae0-87d1-d700008bbf7c.PNG)
+![Ethnicity of Covid Cases](https://user-images.githubusercontent.com/84881187/140678892-c45b4c45-ca02-4ae0-87d1-d700008bbf7c.PNG)1
+
+
+
+### Data_Sources
+
+[Vaccination Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/Vacc_Data_Schema.csv) <br/>
+
+[Demographic Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/census_data_schema.csv) <br/>
+
+[*See All Data Sources*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/tree/main/Resources) <br/>
+
+
+
 
 
 ### Design
