@@ -18,42 +18,13 @@ In order to fill this missing piece we created a SQL database using PGAdmin in o
 
 ### __Resources__
 
-
-NYC COVID Github:
-
-https://github.com/nychealth/coronavirus-data.git
-
-https://data.ny.gov/
-
-https://covidtracking.com/
-
 https://health.data.ny.gov/browse?tags=covid-19
-
-NYC Census Data:
 
 https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.page##2020-census-results
 
-## Role Interests
+https://covid.cdc.gov/covid-data-tracker/
 
-* Kyle: Github, Databasing, & Tech
+https://data.ny.gov/Energy-Environment/NYSERDA-Low-to-Moderate-Income-New-York-State-Cens/bui8-bb6g
 
-* Helena: Github & Machine Learning
-
-* Kristin: Machine Learning & Visualization
-
-* Tara: Database & Visualization
-
-* Portia: Database & Visualization
-
-* John: Database & Tech
-
-
-### Availability
-
-Weekends during the day
-
-Nights starting at 7pm ET
-
-
-
+https://coronavirus.health.ny.gov/demographic-vaccination-data
 
