@@ -40,7 +40,16 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 ### Preprocessing
 
 #### Vaccination Preprocessing
-ADD PORTIA'S DESCRIPTION OF VAX API PREPROCESSING HERE <br/>
+#### Vaccination and Mapping Preprocessing
+Firstly vaccination data preprocessing began with finding a site that contained useful and functional information aboute Covid-19 and vaccinations; the site Covid Act Now was found to have such information and had a downloadable data and needed Rest API. <br/>
+All preprocessing was done in in a Jupyter Notebook, to clean the data and ultimately convert that data into a JavaScript data file.  
+The data was imported to Jupyter Notebook and then changed into a CSV file from which the DataFrame was created. 
+The fetch function was used to get the data from the DataFrame that would be used for mapping. Not all the columns were used as some columns althought of interest contained only Nans.
+The data was then put into a dictionary, called c_data and this was converted into a json file.
+Secondly for creation of the map of New York State, we needed county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
+This file however needed to be converted into a JavaScript file to use for mapping, however after converting the file it was unuseable as the coordinates were to large.
+A secondary search led to the nycounties.geojson files which was ultimately used to create the county lines.
+The D3.JSON command was used on both files in order to create the map.  
 
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
 
