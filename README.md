@@ -33,6 +33,7 @@ For our analysis, we used a 4 part stack series:
 ### Preprocessing
 
 #### Vaccination Preprocessing
+
 ADD PORTIA'S DESCRIPTION OF VAX API PREPROCESSING HERE <br/>
 
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
@@ -41,15 +42,17 @@ In order to use this data in the model, the counties were grouped to match the c
 
 #### Demographic Preprocessing
 
-At our first meeting, after we agreed upon our mission, to identify correlating factors in effort to forecast future vaccination rates, we discussed three key facets to the design of our research. These three facets being: scope, data sources & key factors.
+Our team agreed upon the mission to identify potential correlating factors in effort to forecast future vaccination rates. We discussed three key facets to the design of our research. These three facets being: scope, data sources & key factors.
 
-Scope: Being that the entire team live with in the NYC area, it was an easy agreement to want the focus of our study to be centralized around NY but to what? We discussed having our scope being NY v other North Eastern states but came to the conclusion that the dataset was too large for the purpose & timeframe of this project. So we drew our focus tighter to just the 5 NYC boroughs. Upon looking at the data we gathered, it was lacking and did not give us the compelling correlations we needed. So in order to correct this we widened our scope to the entirety of NYS, with our geographic measure being at the county level. This small detail was the key to identifying our data sources.
+ * Scope: We discussed having our scope being NYC 5-boroughs VS New York State. Upon looking at the data we gathered, we decided to broaden our sample to vaccination rates across New York State, with our geographic measure being at the county level.
 
-Data Sources: As with all good research it depends on the validity & accuracy of the data used. This was a key concern for the team. We did many Google searches and found tons of data from a variation of different sources but our questions for each one was the same: is this a proper data source with data we can trust? And is the data in a format we can manipulate to fit our end needs? After the vetting process we settled on using data from government sources. The data sources chosen had to have a direct link to one of the following: the US Center for Disease Control, New York State entity(ies) and New York City entity(ies). Complete list of resources used can be found in this ReadMe.
+ * Data Sources: We found tons of data from a variation of The data sources chosen included aggregate data from: the US Center for Disease Control, New York State Department of Health and New York City entities. Complete list of resources used can be found [here](data_sources).
 
-Key Factors: Once we had our data sources drilled down, we began to see what they had to offer. The team brainstormed on a myriad of factors that we believed had a correlation ranging from income, population density, demographic, fatality rates, hospitalizations, education, average form of transportation (i.e. car v public transit) etc. We ultimately decided that for the scope of this project, the key factors we wanted to focus in and analyze were: household income, Race/Ethnicity, NYS vaccination rates by county, housing & head of household education level.
+ * Key Factors: Once we had our data sources drilled down, we began to see what they had to offer. The team brainstormed on a myriad of factors that we believed had a correlation ranging from income, population density, demographic, fatality rates, hospitalizations, education, average form of transportation (i.e. car v public transit) etc. We ultimately decided that for the scope of this project, the key factors we wanted to focus in and analyze were: household income, Race/Ethnicity, NYS vaccination rates by county, housing & head of household education level.
+
 
 #### ETL & Database
+
 Once we had all the above identified, we began to parse and manipulate the data into forms that were fucntional for all later stages of the project. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
 
 In order to fill this missing piece we created a SQL database using PGAdmin in order to store and house our data. It was at this step that we thought it helpful to merge our race/ethnicity table with our low income table. This was completed using SQL within the database, which in turn created a new data table for our use. Once all the data tables were aggregated and successfully stored within our database they were sent applied to our Machine Learning model.
@@ -120,7 +123,7 @@ The current and original models were both trained for 100 epochs.
 #### Model Results
 The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
 
-### Data Sources
+### Data_Sources
 
 [Vaccination Table Schema](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resources/Vacc_Data_Schema.csv) <br/>
 
