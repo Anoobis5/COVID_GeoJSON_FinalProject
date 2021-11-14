@@ -83,7 +83,7 @@ Map Box and Leaflet will be used to create map with overlays and layers
 
 ![Hospitalized Ratio]()
 
-![Deaths]()
+![Deaths](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/Deaths.PNG)
 
 #### Summary
 
