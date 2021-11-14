@@ -32,9 +32,9 @@ For our analysis, we used a 4 part stack series:
 
 ### Preprocessing
 
-Firstly vaccination data preprocessing began with finding a site that contained useful and functional information aboute Covid-19 and vaccinations; the site Covid Act Now was found to have such information and had a downloadable data and needed Rest API. <br/>
+Firstly vaccination data preprocessing began with finding a site that contained useful and functional information aboute Covid-19 and vaccinations; the site Covid Act Now was found to have such information and had a downloadable data and needed Rest API. Then we needed to collect census data, and process our demographic features. <br/>
 
-#### Vaccination Data Preprocessing/Python and Pandas
+#### Vaccination Data Preprocessing
 All preprocessing was done in in a Jupyter Notebook, to clean the data and ultimately convert that data into a JavaScript data file.  
 The data was imported to Jupyter Notebook and then changed into a CSV file from which the DataFrame was created. 
 
@@ -162,19 +162,6 @@ The current and original models were both trained for 100 epochs.
 
 #### Model Results
 The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
-
-
-
-
-### Project Outline
-
-  * Then: we also collected API data for our GeoJSON map and interactive data elements. Fortunately, the site covidactnow.org consolidated several of the datasource we were already using, along with regularly update API.
-
-
-  * Finally: We will analyze our data, and visualize it on a dashboard using Heroku, Tableau, and an interactive GeoJSON map. We used the Vaccination Data and Census data to analyze COVID-19 Vaccination Rates across several demographics among New York State Residents, including, income, education, and ethnicity. See below for some examples of our data visuals  to be used in the completed dashboard:
-  ![Income_and_Education](https://user-images.githubusercontent.com/84881187/140678561-628ee2d4-3acf-45d1-85e0-8e0a33d43ccc.PNG)
-
-![Ethnicity of Covid Cases](https://user-images.githubusercontent.com/84881187/140678892-c45b4c45-ca02-4ae0-87d1-d700008bbf7c.PNG)1
 
 
 
