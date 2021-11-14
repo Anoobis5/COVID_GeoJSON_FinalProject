@@ -79,7 +79,7 @@ Map Box and Leaflet will be used to create map with overlays and layers
 
 ![Completed Vaccines](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/MapLayers.PNG)
 
-![Initiated Vaccines]()
+![Initiated Vaccines](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/Intiated_Vaccines.PNG)
 
 ![Hospitalized Ratio]()
 
