@@ -209,8 +209,11 @@ https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.pag
 
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
 
+## Dashboard
 
 ### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
+
+## Interactive Dashboard: [see here]()
 
 
 
