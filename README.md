@@ -51,11 +51,22 @@ The data was imported to Jupyter Notebook and then changed into a CSV file from 
 
 Investigative work and cleaning was done on the DataFrame. Columns with Nans would be replaced with zeros. We were interested in using the metric for distributed vaccines to see if this was a predictor for vaccinations but this columns was filled with Nans.
 
-![Data Investigating]()
-The fetch function was used to compile the data from the DataFrame that would be used for mapping. Not all the columns were used as some columns although of interest contained only Nans.
+![Data Investigating](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/DF_Columns.PNG)
+
+The fetch function was used to compile the data from the DataFrame that would be used for mapping. 
+
+![Fetch Function]()
+
 The data was then put into a dictionary, called c_data and this was converted into a json file.
-Secondly for creation of the map of New York State, we needed county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
+
+![C_data json file]()
+
+The JSON file was then converted to a JavaScript file
+
+
+Secondly for creation of the map of New York State, we needed NYS county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
 This file however needed to be converted into a JavaScript file to use for mapping, however after converting the file it was unuseable as the coordinates were to large.
+
 A secondary search led to the nycounties.geojson files which was ultimately used to create the county lines.
 The D3.JSON command was used on both files in order to create the map.  
 
