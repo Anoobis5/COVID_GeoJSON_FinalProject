@@ -47,8 +47,12 @@ Firstly vaccination data preprocessing began with finding a site that contained 
 All preprocessing was done in in a Jupyter Notebook, to clean the data and ultimately convert that data into a JavaScript data file.  
 The data was imported to Jupyter Notebook and then changed into a CSV file from which the DataFrame was created. 
 
-![Pandas DataFrame]()
-The fetch function was used to get the data from the DataFrame that would be used for mapping. Not all the columns were used as some columns although of interest contained only Nans.
+![Pandas DataFrame](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/JN_PandasDF.PNG)
+
+Investigative work and cleaning was done on the DataFrame. Columns with Nans would be replaced with zeros. We were interested in using the metric for distributed vaccines to see if this was a predictor for vaccinations but this columns was filled with Nans.
+
+![Data Investigating]()
+The fetch function was used to compile the data from the DataFrame that would be used for mapping. Not all the columns were used as some columns although of interest contained only Nans.
 The data was then put into a dictionary, called c_data and this was converted into a json file.
 Secondly for creation of the map of New York State, we needed county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
 This file however needed to be converted into a JavaScript file to use for mapping, however after converting the file it was unuseable as the coordinates were to large.
