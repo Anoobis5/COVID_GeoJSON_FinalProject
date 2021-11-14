@@ -114,11 +114,13 @@ The vaccination and demographic dataframes were then merged to create one file w
 
 Our team was initially interested in seeing if any demographics could predict vaccination rates so we included all demographic features from the data sources we had available. The features include those related to age (i.e., Households with Elderly, Households with Children, Head of Household Age), Race / Ethnicity, Education Level, Housing (e.g., single family home, multi-family apartment unit), Income (Household Income, Percent of Poverty Level, Low-to-Moderate Income groups) and Population. Of these demographic factors, our team hypothesized that income would be the best predictor of vaccination rates. <br/>
 
-ADD MORE DETAIL ON KRISTIN'S HYPOHTESIS HERE
 
 #### Hypotheses
+
+Income inequality remains one of the largest predictors of health equity. Our team recognizes the barriers that many individuals face to obtain proper healthcare, which includes accessibly to facilities as well as the distribution of scientifically factual information to communities. As such, we hypothesized that the primary predictive factor of vaccination status would be household income.<br/>
+
 H1: Demographic factors (i.e., Population, Age, Income, Race, Education, Housing) impact vaccination rates among New York State residents. <br/>
-H2: Of all demographic factors, Income is most predictive of vaccination rates among New York State residents. <br/>
+H2: Of all demographic factors, income is most predictive of vaccination rates among New York State residents. <br/>
 
 #### Hypothesis Testing - Multiple Regression
 To determine what demographic variables could be predictors of vaccination rate, a multiple regression was conducted with the preprocessed data. <br/>
