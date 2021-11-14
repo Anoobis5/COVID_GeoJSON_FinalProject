@@ -32,10 +32,6 @@ For our analysis, we used a 4 part stack series:
 
 ### Preprocessing
 
-#### Vaccination Preprocessing
-
-#### Vaccination Preprocessing
-#### Vaccination and Mapping Preprocessing
 Firstly vaccination data preprocessing began with finding a site that contained useful and functional information aboute Covid-19 and vaccinations; the site Covid Act Now was found to have such information and had a downloadable data and needed Rest API. <br/>
 
 #### Vaccination Data Preprocessing/Python and Pandas
@@ -86,7 +82,7 @@ In order to use this data in the model, the counties were grouped to match the c
 
 
 
-#### Demographic Preprocessing
+### Demographic Preprocessing
 
 Our team agreed upon the mission to identify potential correlating factors in effort to forecast future vaccination rates. We discussed three key facets to the design of our research. These three facets being: scope, data sources & key factors.
 
