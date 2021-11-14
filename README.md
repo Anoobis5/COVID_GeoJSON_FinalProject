@@ -98,6 +98,9 @@ Our team agreed upon the mission to identify potential correlating factors in ef
 
 Once we had all the above identified within our datasources, we began to parse and transform the data into forms that were fucntional for all later stages of the analysis. Many different excel tools & functions were used in order to complete this first step, such as, sumif & sumifs, vlookups, conditional formatting, cut & paste, count, counts, countif & much more. Once the data had been vetted, it was then time to convert it into a pandas dataframe. We used the pandas library of python in order to convert it into an easily readable table for our machine learning model to read and use. But before that could happen we had to create and structure a system to house the data. 
 
+![image](https://user-images.githubusercontent.com/84881187/141701725-9da0e4ed-506a-42d4-b418-b7b6692f1e33.png)
+
+
 In order to fill this missing piece we created a SQL database using PGAdmin in order to store and house our data. It was at this step that we thought it helpful to merge our race/ethnicity table with our low income table. This was completed using SQL within the database, which in turn created a new data table for our use. Once all the data tables were aggregated and successfully stored within our database they were sent applied to our Machine Learning model.
 ![Vacc_by_County_df](https://user-images.githubusercontent.com/84881187/140678174-5bc9d9c7-742b-4814-a5fa-2fba68399f2f.PNG)
 ![Datatypes](https://user-images.githubusercontent.com/84881187/141400709-2a6b04b3-62a3-4533-bf12-29dcec134e50.PNG)
@@ -112,12 +115,12 @@ The vaccination and demographic dataframes were then merged to create one file w
 
 ### Feature Engineering & Selection
 
-Our team was initially interested in seeing if any demographics could predict vaccination rates so we included all demographic features from the data sources we had available. The features include those related to age (i.e., Households with Elderly, Households with Children, Head of Household Age), Race / Ethnicity, Education Level, Housing (e.g., single family home, multi-family apartment unit), Income (Household Income, Percent of Poverty Level, Low-to-Moderate Income groups) and Population. Of these demographic factors, our team hypothesized that income would be the best predictor of vaccination rates. <br/>
+Our team was initially interested in seeing if any demographics could predict vaccination rates so we included all demographic features from the data sources we had available. The features include those related to age (i.e., Households with Elderly, Households with Children, Head of Household Age), Race / Ethnicity, Education Level, Housing (e.g., single family home, multi-family apartment unit), Income (Household Income, Percent of Poverty Level, Low-to-Moderate Income groups) and Population. <br/>
 
 
 #### Hypotheses
 
-Income inequality remains one of the largest predictors of health equity. Our team recognizes the barriers that many individuals face to obtain proper healthcare, which includes accessibly to facilities as well as the distribution of scientifically factual information to communities. As such, we hypothesized that the primary predictive factor of vaccination status would be household income.<br/>
+Income inequality remains one of the largest predictors of health equity. Our team recognizes the barriers that many individuals face to obtain proper healthcare, which includes accessibly to facilities as well as the distribution of scientifically factual information to communities. As such, we hypothesized that the primary predictive factor of vaccination status would be household income. <br/>
 
 H1: Demographic factors (i.e., Population, Age, Income, Race, Education, Housing) impact vaccination rates among New York State residents. <br/>
 H2: Of all demographic factors, income is most predictive of vaccination rates among New York State residents. <br/>
