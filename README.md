@@ -42,9 +42,13 @@ Are there certain demographic factors (e.g., household income) that predict vacc
 #### Vaccination Preprocessing
 #### Vaccination and Mapping Preprocessing
 Firstly vaccination data preprocessing began with finding a site that contained useful and functional information aboute Covid-19 and vaccinations; the site Covid Act Now was found to have such information and had a downloadable data and needed Rest API. <br/>
+
+#### Vaccination Data Preprocessing/Python and Pandas
 All preprocessing was done in in a Jupyter Notebook, to clean the data and ultimately convert that data into a JavaScript data file.  
 The data was imported to Jupyter Notebook and then changed into a CSV file from which the DataFrame was created. 
-The fetch function was used to get the data from the DataFrame that would be used for mapping. Not all the columns were used as some columns althought of interest contained only Nans.
+
+![Pandas DataFrame]()
+The fetch function was used to get the data from the DataFrame that would be used for mapping. Not all the columns were used as some columns although of interest contained only Nans.
 The data was then put into a dictionary, called c_data and this was converted into a json file.
 Secondly for creation of the map of New York State, we needed county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
 This file however needed to be converted into a JavaScript file to use for mapping, however after converting the file it was unuseable as the coordinates were to large.
@@ -189,4 +193,9 @@ We will be using Heroku to fomulate our dashboard. We plan on using Flask, and w
 * HTML
 * https://covidactnow.org/data-api
 * CSS
+
+## GeoJson Maps
+Pandas,Python will be used to read and clean data
+To create maps: Code will be written in JavaScript using VS Code. D3.JSON will be used to process both the c_data and nys county boundries
+For GeoJson mapping visualizations and styling, MapBox and Leaflet, CSS will be used 
 
