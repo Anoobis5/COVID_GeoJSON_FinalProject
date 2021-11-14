@@ -34,7 +34,53 @@ For our analysis, we used a 4 part stack series:
 
 #### Vaccination Preprocessing
 
-ADD PORTIA'S DESCRIPTION OF VAX API PREPROCESSING HERE <br/>
+#### Vaccination Preprocessing
+#### Vaccination and Mapping Preprocessing
+Firstly vaccination data preprocessing began with finding a site that contained useful and functional information aboute Covid-19 and vaccinations; the site Covid Act Now was found to have such information and had a downloadable data and needed Rest API. <br/>
+
+#### Vaccination Data Preprocessing/Python and Pandas
+All preprocessing was done in in a Jupyter Notebook, to clean the data and ultimately convert that data into a JavaScript data file.  
+The data was imported to Jupyter Notebook and then changed into a CSV file from which the DataFrame was created. 
+
+![Pandas DataFrame](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/JN_PandasDF.PNG)
+
+Investigative work and cleaning was done on the DataFrame. Columns with Nans would be replaced with zeros. We were interested in using the metric for distributed vaccines to see if this was a predictor for vaccinations but this columns was filled with Nans.
+
+![Data Investigating](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/DF_Columns.PNG)
+
+The fetch function was used to compile the data from the DataFrame that would be used for mapping. 
+
+![Fetch Function](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/DF_Fetch_Data.PNG)
+
+The data was then put into a dictionary, called c_data and this was converted into a json file.
+
+![C_data json file](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/C_Data.PNG)
+
+The JSON file was then converted to a JavaScript file
+![Covert C_Data to JS](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/GeoJson_C_Data.PNG)
+
+__Challenges__
+
+Secondly for creation of the map of New York State, we needed NYS county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
+This file however needed to be converted into a JavaScript file to use for mapping, however after converting the file it was unuseable as the coordinates were to large.
+
+A secondary search led to the nycounties.geojson files which was ultimately used to create the county lines.
+The D3.JSON command was used on both files in order to create the map.  
+
+Map Box and Leaflet will be used to create map with overlays and layers
+![]()
+
+#### Results
+
+![Completed Vaccines](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/MapLayers.PNG)
+
+![Initiated Vaccines](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/Intiated_Vaccines.PNG)
+
+![Hospitalized Ratio]()
+
+![Deaths](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/Deaths.PNG)
+
+#### Summary
 
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
 
