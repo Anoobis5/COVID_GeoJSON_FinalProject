@@ -55,12 +55,12 @@ Investigative work and cleaning was done on the DataFrame. Columns with Nans wou
 
 The fetch function was used to compile the data from the DataFrame that would be used for mapping. 
 
-![Fetch Function]()
+![Fetch Function](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/DF_Fetch_Data.PNG)
 
 The data was then put into a dictionary, called c_data and this was converted into a json file.
 
 ![C_data json file]()
-
+![]()
 The JSON file was then converted to a JavaScript file
 
 
