@@ -59,10 +59,11 @@ The fetch function was used to compile the data from the DataFrame that would be
 
 The data was then put into a dictionary, called c_data and this was converted into a json file.
 
-![C_data json file]()
+![C_data json file](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/C_Data.PNG)
 ![]()
 The JSON file was then converted to a JavaScript file
 
+__Challenges__
 
 Secondly for creation of the map of New York State, we needed NYS county lines. Initially from the http://gis.ny.gov/gis site, a NYS county shape file was download.
 This file however needed to be converted into a JavaScript file to use for mapping, however after converting the file it was unuseable as the coordinates were to large.
@@ -70,6 +71,7 @@ This file however needed to be converted into a JavaScript file to use for mappi
 A secondary search led to the nycounties.geojson files which was ultimately used to create the county lines.
 The D3.JSON command was used on both files in order to create the map.  
 
+## Not my Info
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
 
 #### Demographic Preprocessing
