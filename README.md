@@ -27,7 +27,8 @@ For our analysis, we used a 4 part stack series:
  * Both SciKitLearn and Tensorflow were the ML libraries used to create a classifier for the analysis.
 
 #### Dashboard
- * We used Heroku to formulate our dashboard. We used Tableau, Flask, and integreated D3.js for fully functioning and interactive visualizations on the dashboard. 
+ * We used Heroku to formulate our dashboard. We used Tableau, git, and integreated D3.js for fully functioning and interactive visualizations on the dashboard.
+ * [Link to dashboard](https://kristinallocco.github.io/Home.html) 
 
 ## Analysis
 
