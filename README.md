@@ -219,7 +219,7 @@ https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.pag
 
 ### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
 
-## Interactive Dashboard: [see here]()
+## Interactive Dashboard: [see here](https://kristinallocco.github.io/Home.html)
 
 
 
