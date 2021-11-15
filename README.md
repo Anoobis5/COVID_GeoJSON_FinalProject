@@ -10,6 +10,7 @@ The purpose of this analysis is to gain insight into what factors impact COVID-1
  - [Analysis](#analysis)
  - [Results](#results)
  - [Dashboard](#dashboard)
+ - [Presentation](#Presentations)
  - [Data_Sources](#data_sources)
  - [Credits](#credits)
 
@@ -215,7 +216,7 @@ https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.pag
 
 [*See More Information*](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Technology.md)
 
-## Dashboard
+## Presentations
 
 ### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
 
