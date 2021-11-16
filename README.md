@@ -29,7 +29,7 @@ For our analysis, we used a 4 part stack series:
 
 #### Dashboard
  * We used Heroku to formulate our dashboard. We used Tableau, git, and integreated D3.js for fully functioning and interactive visualizations on the dashboard.
- * [Link to dashboard](https://kristinallocco.github.io/Home.html) 
+ * [Link to dashboard](https://covid-vaccination-prediction.herokuapp.com/Home/) 
 
 ## Analysis
 
@@ -220,7 +220,7 @@ https://www1.nyc.gov/site/planning/planning-level/nyc-population/2020-census.pag
 
 ### Presentation Story Board: [see here](https://docs.google.com/presentation/d/1c9cfA28_8GVU7xcNCX7rOtGATN4EiccQRYXfeIIyXYQ/edit?usp=sharing)
 
-## Interactive Dashboard: [see here](https://kristinallocco.github.io/Home.html)
+## Interactive Dashboard: [see here](https://covid-vaccination-prediction.herokuapp.com/Home/)
 
 
 
