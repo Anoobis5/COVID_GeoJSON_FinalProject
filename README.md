@@ -81,6 +81,7 @@ Map Box and Leaflet will be used to create map with overlays and layers
 
 #### Summary
 
+The layer of Covid death was included to understand the number of deaths that were as a result of Covid and to analyse if this would be a determinant factor for vaccination rates.  
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
 
 
