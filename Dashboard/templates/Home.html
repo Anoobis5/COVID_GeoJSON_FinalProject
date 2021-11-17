@@ -36,8 +36,19 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href={{ url_for('home') }} style="padding: 8px 16px;">Home</a>
-            </li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href={{ url_for('analysis') }} style="padding: 8px 16px;">Analysis</a>
-            </li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href={{ url_for('team') }} style="padding: 8px 16px;">Team</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href={{ url_for('analysis') }} style="padding: 8px 16px;">Analysis</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href={{ url_for('team') }} style="padding: 8px 16px;">Team</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="https://github.com/Anoobis5/COVID_GeoJSON_FinalProject" target="_blank" style="padding: 8px 16px;">GitHub Repository</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href={{ url_for('home') }}  style="padding: 8px 16px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href={{ url_for('analysis') }} style="padding: 8px 16px;">Analysis</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href={{ url_for('team') }} style="padding: 8px 16px;">Team</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://github.com/Anoobis5/COVID_GeoJSON_FinalProject" target="_blank" style="padding: 8px 16px;">GitHub Repository</a>
 </li></ul>
               </div>
             </div>
@@ -59,9 +70,9 @@
             <div class="u-layout-row">
               <div class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-1">
                 <div class="u-border-20 u-border-palette-1-light-3 u-container-layout u-container-layout-2">
-                  <p class="u-align-left u-custom-font u-font-pt-sans u-text u-text-3">This project was made possible through the use of vaccination data as well as New York State census data to analyze COVID-19 vaccination rates across several demographics among New York State Residents, including, income, education, and ethnicity.&nbsp;<span style="font-size: 1.125rem;"></span>
+                  <p class="u-align-left u-custom-font u-font-pt-sans u-text u-text-3">This project was made possible through the collaborating aggregation of vaccination data from several government sources, as well as New York State census data to analyze COVID-19 vaccination rates across several demographics among New York State Residents, including: income, education, and ethnicity. &nbsp;<span style="font-size: 1.125rem;"></span>
                     <br>
-                    <br>To determine the variables with the most substancial effects, a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model emulates a regression model, where the dependant variable (vaccination rates) can be derived from independent variables (demographic information).<br>
+                    <br>This data was cleaned and analyzed through Pandas, Python, and GoogleCollab; then stored in an SQL Database. In order to identify which variables have the most substantial influence on an individuals decision to get the COVID-19 vaccine, we used a neural network model to predict the COVID-19 vaccination rates of New York State residents. The model emulates a regression model, where the dependant variable (vaccination rates) can be derived from independent variables (demographic information). Visualizations and links to the full project analysis can be found in the Analysis section of this dashboard.<br>
                   </p>
                 </div>
               </div>
@@ -72,12 +83,7 @@
     </section>
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-5364"><div class="u-clearfix u-sheet u-sheet-1">
-      <p class="u-small-text u-text u-text-variant u-text-1">2021</p>
+      <p class="u-small-text u-text u-text-variant u-text-1"><b>Columbia University Data Analytics and Visualization Bootcamp 2021</b></p>
     </div></footer>
-  <section class="u-backlink u-clearfix u-grey-80">
-    <a class="u-link" href="https://github.com/Anoobis5/COVID_GeoJSON_FinalProject" target="_blank">
-    <span>Github Project</span>
-    </a>
-  </section>
 </body>
 </html>

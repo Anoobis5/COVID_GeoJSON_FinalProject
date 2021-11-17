@@ -34,6 +34,16 @@
   margin: 20px 0 0;
 }
 
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-1 .u-container-layout-2 {
   padding: 30px;
 }
@@ -54,6 +64,16 @@
   margin: 20px 0 0;
 }
 
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-1 .u-container-layout-3 {
   padding: 30px;
 }
@@ -72,6 +92,16 @@
 
 .u-section-1 .u-text-6 {
   margin: 20px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -174,6 +204,16 @@
   margin: 21px 0 0;
 }
 
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-2 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-2 .u-container-layout-2 {
   padding: 30px;
 }
@@ -181,7 +221,7 @@
 .u-section-2 .u-image-2 {
   width: 290px;
   height: 290px;
-  background-image: url("../images/30a7a10ed9a824b448d5ff5f368633b4a5b5583f32d4cfc443abb151f647aa61e1b692aa37844bfba2873d9f2f12ad72d4df1677c9e7df04055ee6_1280.jpg");
+  background-image: url("../images/portia.jpeg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -192,6 +232,16 @@
 
 .u-section-2 .u-text-4 {
   margin: 21px 0 0;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-2 .u-btn-2 {
+  background-image: none;
+  padding: 0;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -212,6 +262,16 @@
 
 .u-section-2 .u-text-6 {
   margin: 21px 0 0;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-2 .u-btn-2 {
+  background-image: none;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
