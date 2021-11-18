@@ -73,15 +73,23 @@ Map Box and Leaflet will be used to create map with overlays and layers
 
 ![Completed Vaccines](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/MapLayers.PNG)
 
+The _highest number_ of vaccines is in __Kings County with 1.5 million vaccinated__, however this is not the highest ratio of completed vaccines, that is complete vaccination  to population. The completed vaccine ratio of __Kings County is 0.608__. The __highest vaccination ratio is seen in Hamilton County at 0.791__. Hamiliton County is also the least populated county in NYS.  __Queens County has the second highest__ completely vaccinated ratio at represented by __1.68 million completly vaccinated__. The third highest ratio is New York County represented by a __ratio of 0.75__ which is 1.2 million completely vaccinated people_. The capital of New York, Albany County has a ratio of 0.675.
+The counties with the lowest ratio are: Wyoming County with 0.48, Lewis County with a ratio of 0.475 and Allegany County with 0.421. 
+
 ![Initiated Vaccines](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/Intiated_Vaccines.PNG)
 
-![Hospitalized Ratio]()
+The two counties that have the _highest ratio_ of _intitiated vaccines_ are __New York County and Hamilton County_ with a _ratio of 8.6__. This is closely followed by __Queens County_ with a _ratio of 0.84__. __Nassau County__ the sixth most populous county has the __third highest ratio of inititiated vaccines with 0.821__ initiated vaccines. The capital of New York, Albany County has a ratio of 0.729 initiated vaccines
+The counties with the _lowest initiated vaccines ratios_ are _Lewis County, at 0.496, 13,035 initiated vaccinated_, _Wyomning County at 0.495 or 19,739_ and the lowest is _Allegany County with a ratio of 0.421 which represents 19,411 initiated vaccines_
 
 ![Deaths](https://github.com/Anoobis5/COVID_GeoJSON_FinalProject/blob/main/Resource_Pics/Deaths.PNG)
 
+The largest number of deaths were experinced in the metro area of New York City. __Kings County had the largest number at 10,893__, followed by __Queens County with 10,345__ deaths and New York County with 4,647 deaths in total, New York County is also the most densely populated metro area. 
+The least deaths were seen in the least densely populated countiesm Hamilton County the least populated and also having the smallest density only had 3 deaths. Schoharie County the fourth least populated county had 24 deaths and Yates County also among the least densely populated counties had 30 deaths.  
+
 #### Summary
 
-The layer of Covid death was included to understand the number of deaths that were as a result of Covid and to analyse if this would be a determinant factor for vaccination rates.  
+The layer of __Death's__ was included to to bring an understanding to the magnitude of loss of lives as a result of Covid and to analyse if large total number of death would be a determinant factor for vaccination rates. It was observed that the highest death rates are in the counties of New York City.  Kings County with the hightest at 10,893. It is however observed that Kings County does not have the highest completed vaccination ratio. In fact the smallest county __Hamilton County__ with the least number of deaths __3 deaths__. It is also noteworthy that Hamilton County also has the highet ratio of completed and initiated vaccines. Therefore it does not seem to be death or population size is directly corelated to vaccination rates.  Most counties have just about 50 to 60 % ratio of total vaccinations. However it is important to note that many of these states have approxiamtely the same ratio of initiated vaccines.  It might be that similary across the board that there has been a very cautious approach to vaccinations or there might be other mitigating factors not represnted by the data such as religious beliefs. 
+
 In order to use this data in the model, the counties were grouped to match the county/county group labels in the demographic data. The county groups' vaccination rates were averaged and the population and vaccination counts were summed to create aggregate scores. This vaccination data was then imported into a Google Colab notebook for further preprocessing. The columns were narrowed down to the county/county group names, total population and vaccination rate. Any rows with null data were dropped and the columns were renamed to 'County', 'Total_Pop' and 'Vax_Rate' for clarity. 
 
 
