@@ -67,7 +67,7 @@ A secondary search led to the nycounties.geojson files which was ultimately used
 The D3.JSON command was used on both files in order to create the map.  
 
 Map Box and Leaflet will be used to create map with overlays and layers
-![]()
+![MapBox and Leaflet]()
 
 #### Results
 
