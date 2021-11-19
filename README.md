@@ -180,6 +180,13 @@ The current and original models were both trained for 100 epochs.
 The mean squared error (i.e., loss) was was used to determine the model's efficacy. The model loss for the training and testing data were 0.1391 and 0.1382 respectively. The less than 0.01 difference between the model loss for the training and testing data indicates that the model effective at predicting vaccination rates based on the demographic features. 
 
 
+## Recommendations for Future Analysis
+
+Our project does an excellent job at creating a predictive model. We hypothesized that certain demographic variables could potentially influence an individual's decision to get the COVID-19 vaccination. As stated in our MachineLearning analysis, one of the limitation of our model is that it does not allow us to pinpoint the exact feature or set of features that are most predictive of vaccination rates. This could suggest that multiple features could drive one's decision. Early on, another limitation we ran into was within the scope of our data. Being a 6 person team, we decided to narrow down the scope of our data to the 5-boroughs of New York City as a sample size. After collecting data for the 5-boroughs, we decided to increase our data to the State level for a large sample size. While our data is predictive on the state level, we feel that with a larger team and more resources, this analysis could greatly benefit from being taken to the multi-state and/or national level. We also could consider other demographic features such as Political and Religious influence as driving factors for vaccination within our predictive model. We would also suggest running a multiple-regression model on the data to test the model's predictive ability across states. We anticipate the model will need to be changed per state. We hope this project model is useful in your endeavours. Stay safe!
+
+
+
+
 
 ## Credits
 
